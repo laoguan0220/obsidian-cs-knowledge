@@ -1,0 +1,5 @@
+/* 让带 #core-node 标签的节点在图谱里变大 */
+.graph-view .node[data-tags~="core-node"] {
+  r: 20 !important; /* 默认节点半径大概是 8-10，这里改到 20 就会明显变大 */
+  stroke-width: 2 !important;
+}

@@ -1,0 +1,7 @@
+{
+  "baseFontSize": 16,
+  "enabledCssSnippets": [
+    "big-font",
+    "graph-node-size"
+  ]
+}

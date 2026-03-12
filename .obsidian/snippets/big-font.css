@@ -1,0 +1,6 @@
+/* 让带 big-font 类的笔记正文和标题都变大 */
+.big-font {
+  --font-size-normal: 18px;   /* 正文字体 */
+  --font-size-h2: 40px;       /* 二级标题 */
+  --font-size-h3: 22px;       /* 三级标题 */
+}
