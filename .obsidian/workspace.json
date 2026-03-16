@@ -11,10 +11,10 @@
             "id": "22641ec12d169f53",
             "type": "leaf",
             "state": {
-              "type": "empty",
+              "type": "graph",
               "state": {},
-              "icon": "lucide-file",
-              "title": "新标签页"
+              "icon": "lucide-git-fork",
+              "title": "关系图谱"
             }
           }
         ]
@@ -191,7 +191,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "7c3e9c69aca45163",
+  "active": "22641ec12d169f53",
   "lastOpenFiles": [
     "未命名.md",
     "计算机科学与技术/计算机组成原理.md",
