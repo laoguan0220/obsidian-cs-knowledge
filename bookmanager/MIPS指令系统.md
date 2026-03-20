@@ -19,3 +19,9 @@ tags:
 - 寄存器寻址和基址寻址，基址寻址是通过寄存器里面的数加上偏移量找到主存里面的数，寄存器寻址是直接取寄存器里面的数值，基址寻址适合数组，立即数寻址，addiu，int g=a+3;
   addiu $2,$4,3
 - R\[$2]表示2号寄存器里面的内容，M\[addr]表示主存地址为addr储存的值，PC表示指向的地址，M\[PC]表示这个地址的指令
+- 指令格式 定长指令(RISC) 变长指令(CISC) MIPS指令是32位二进制
+- R-型指令  op始终为6个0，操作码确定指令的格式 rs (register source) rt（register target）rd(register destination)     shamt(shift amount)偏移量 function code功能码 rs rt rd 都是5位,能够表示cpu里面的32个寄存器
+- 位移量shamt也是5位
+- or and xor（异或）nor(逻辑或非来实现取反操作)
+- sll:shift logical left 逻辑左移 sll $4(目的寄存器),$4（要移动的寄存器）,4(移动的位数)
+- sra shift arithmetic right 算术右移 
