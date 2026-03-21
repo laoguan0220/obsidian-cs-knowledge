@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "1f28d5c4e3738844",
+        "id": "a5c9aecd6d1a4008",
         "type": "tabs",
         "children": [
           {
-            "id": "22641ec12d169f53",
+            "id": "37429ca2a7c1d461",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MIPS指令系统.md",
+                "file": "数据的表示和运算.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "MIPS指令系统"
+              "title": "数据的表示和运算"
             }
           }
         ]
@@ -195,12 +195,19 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "22641ec12d169f53",
+  "active": "37429ca2a7c1d461",
   "lastOpenFiles": [
+    "bookmanager/b636fa04af0431966f83d34cd58c64d4.jpg",
     "数据的表示和运算.md",
-    "bookmanager/第三章系统总线.pdf",
     "MIPS指令系统.md",
-    "b2360053df7ff600f62615857f5b4107.jpg",
+    "bookmanager/表格_20260320.csv",
+    "未命名.md",
+    "未命名.base",
+    "bookmanager/f2ef4abb2adcbe225888d1fa96245f85.jpg",
+    "bookmanager/4cf5d3a6c05f4bcd09c36962e2e68b95.jpg",
+    "bookmanager/d3c5300149c84d3f4e2e7892c53a1f4b.jpg",
+    "bookmanager/第三章系统总线.pdf",
+    "bookmanager/b2360053df7ff600f62615857f5b4107.jpg",
     "计算机科学与技术/计算机组成原理.md",
     "计算机科学与技术/~$第三章系统总线.pptx",
     "bookmanager/5c56cb09d0178a65e98a263fc2868c41 1.jpg",
@@ -209,22 +216,17 @@
     "bookmanager/7dbfd1309402a1cfa2e355afdef7fb64.jpg",
     "bookmanager/39f794a5df06fdd1ca2cef79f731c5c1.jpg",
     "计算机科学与技术/人工智能.md",
-    "bookmanager/f739ad3eda9e2781e9d4dc2de66320bf 1.jpg",
-    "f739ad3eda9e2781e9d4dc2de66320bf.jpg",
     "未命名",
     "微积分/欧拉麦克劳林公式.md",
     "微积分",
-    "Pasted image 20260313001352.png",
     "计算机科学与技术/编译原理.md",
     "计算机科学与技术/计算机网络.md",
     "bookmanager/~$第三章系统总线.pptx",
     "计算机科学与技术/第三章系统总线.pptx",
     "bookmanager",
     "新建文件夹",
-    "第三章系统总线.pptx",
     "计算机科学与技术/图.md",
     "2026-03-12.md",
-    "未命名 1.base",
     "计算机科学与技术/计算机科学与技术.md",
     "计算机科学与技术/C++ 程序设计.md",
     "计算机科学与技术/数据结构与算法.md",

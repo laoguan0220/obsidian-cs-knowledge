@@ -1,3 +1,6 @@
 {
-  "showUnsupportedFiles": true
+  "showUnsupportedFiles": true,
+  "newFileLocation": "root",
+  "newFileFolderPath": "bookmanager",
+  "attachmentFolderPath": "bookmanager"
 }
