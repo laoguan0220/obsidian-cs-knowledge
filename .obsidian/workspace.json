@@ -8,20 +8,35 @@
         "type": "tabs",
         "children": [
           {
-            "id": "37429ca2a7c1d461",
+            "id": "3b8960abe7868224",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "数据的表示和运算.md",
+                "file": "字符串哈希.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "数据的表示和运算"
+              "title": "字符串哈希"
+            }
+          },
+          {
+            "id": "9eee785015051f88",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "未命名.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "未命名"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -53,7 +68,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#include",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -195,53 +210,53 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "37429ca2a7c1d461",
+  "active": "9eee785015051f88",
   "lastOpenFiles": [
+    "字符串哈希.md",
+    "未命名.md",
+    "算法与数据结构（刷题为主）/KMP算法.md",
+    "算法与数据结构（刷题为主）/字典树.md",
+    "数据的表示和运算.md",
+    "算法与数据结构（刷题为主）/算法的方法汇总.md",
+    "MIPS指令系统.md",
+    "计算机科学与技术/计算机网络.md",
+    "计算机科学与技术/计算机科学与技术.md",
+    "计算机科学与技术/数据结构与算法.md",
+    "计算机科学与技术/编译原理.md",
+    "计算机科学与技术/计算机组成原理.md",
+    "计算机科学与技术/线性表.md",
+    "计算机科学与技术/图.md",
+    "计算机科学与技术/查找算法.md",
+    "计算机科学与技术/栈.md",
+    "计算机科学与技术/队列.md",
+    "计算机科学与技术/操作系统.md",
+    "bookmanager/Pasted image 20260328000600.png",
+    "bookmanager/Pasted image 20260328000548.png",
+    "算法与数据结构（刷题为主）",
+    "bookmanager/Pasted image 20260327235450.png",
+    "bookmanager/Pasted image 20260327235401.png",
+    "bookmanager/Pasted image 20260327235332.png",
     "bookmanager/936d6ed3597862d8335fe5da18a5c1d3.jpg",
     "bookmanager/b4dea0b996d379b57406f5fc0ce56817.jpg",
     "bookmanager/7891599a92fb6e42ed2ff9c5b84e51d9.jpg",
     "bookmanager/6dfc0909af30ad1e5a6024a031a20e3d.jpg",
     "bookmanager/7e1dfb70c01dffff123a20a7a0676a25.jpg",
-    "bookmanager/b636fa04af0431966f83d34cd58c64d4.jpg",
-    "数据的表示和运算.md",
-    "MIPS指令系统.md",
     "bookmanager/表格_20260320.csv",
-    "未命名.md",
     "未命名.base",
-    "bookmanager/f2ef4abb2adcbe225888d1fa96245f85.jpg",
-    "bookmanager/4cf5d3a6c05f4bcd09c36962e2e68b95.jpg",
-    "bookmanager/d3c5300149c84d3f4e2e7892c53a1f4b.jpg",
     "bookmanager/第三章系统总线.pdf",
-    "bookmanager/b2360053df7ff600f62615857f5b4107.jpg",
-    "计算机科学与技术/计算机组成原理.md",
     "计算机科学与技术/~$第三章系统总线.pptx",
-    "bookmanager/5c56cb09d0178a65e98a263fc2868c41 1.jpg",
     "计算机科学与技术/人工智能.md",
-    "未命名",
     "微积分/欧拉麦克劳林公式.md",
     "微积分",
-    "计算机科学与技术/编译原理.md",
-    "计算机科学与技术/计算机网络.md",
     "bookmanager/~$第三章系统总线.pptx",
     "计算机科学与技术/第三章系统总线.pptx",
     "bookmanager",
     "新建文件夹",
-    "计算机科学与技术/图.md",
     "2026-03-12.md",
-    "计算机科学与技术/计算机科学与技术.md",
     "计算机科学与技术/C++ 程序设计.md",
-    "计算机科学与技术/数据结构与算法.md",
     "计算机科学与技术/树.md",
-    "计算机科学与技术/队列.md",
-    "计算机科学与技术/栈.md",
-    "计算机科学与技术/查找算法.md",
     "计算机科学与技术/排序算法.md",
-    "计算机科学与技术/线性表.md",
-    "计算机科学与技术/操作系统.md",
     "计算机科学与技术/高等数学.md",
-    "计算机科学与技术/离散数学.md",
-    "创建链接.md",
-    "欢迎.md",
-    "# 计算机科学与技术（MOC） ## 核心课程 - [[数据结构]] - [[编译原理]] - [[操作系统]] - [[计算机网络]] - [[数据库系统]] - [[算法设计与分析]]  ## 基础课程 - [[高等数学]] - [[离散数学]] - [[C++ 程序设计]]  ## 方向分支 - [[人工智能]] - [[软件工程]] - [[计算机体系结构]].md"
+    "计算机科学与技术/离散数学.md"
   ]
 }
