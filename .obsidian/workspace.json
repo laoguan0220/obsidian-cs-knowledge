@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "未命名.md",
+                "file": "data lab.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "未命名"
+              "title": "data lab"
             }
           }
         ],
@@ -212,8 +212,10 @@
   },
   "active": "9eee785015051f88",
   "lastOpenFiles": [
+    "bookmanager/Pasted image 20260328105712.png",
+    "bookmanager/Pasted image 20260328105612.png",
     "字符串哈希.md",
-    "未命名.md",
+    "data lab.md",
     "算法与数据结构（刷题为主）/KMP算法.md",
     "算法与数据结构（刷题为主）/字典树.md",
     "数据的表示和运算.md",
@@ -240,7 +242,6 @@
     "bookmanager/b4dea0b996d379b57406f5fc0ce56817.jpg",
     "bookmanager/7891599a92fb6e42ed2ff9c5b84e51d9.jpg",
     "bookmanager/6dfc0909af30ad1e5a6024a031a20e3d.jpg",
-    "bookmanager/7e1dfb70c01dffff123a20a7a0676a25.jpg",
     "bookmanager/表格_20260320.csv",
     "未命名.base",
     "bookmanager/第三章系统总线.pdf",
@@ -256,7 +257,6 @@
     "计算机科学与技术/C++ 程序设计.md",
     "计算机科学与技术/树.md",
     "计算机科学与技术/排序算法.md",
-    "计算机科学与技术/高等数学.md",
-    "计算机科学与技术/离散数学.md"
+    "计算机科学与技术/高等数学.md"
   ]
 }
