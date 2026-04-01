@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MIPS指令系统.md",
+                "file": "算法与数据结构（刷题为主）/字符串哈希.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "MIPS指令系统"
+              "title": "字符串哈希"
             }
           }
         ],
@@ -212,15 +212,19 @@
   },
   "active": "9eee785015051f88",
   "lastOpenFiles": [
+    "bookmanager/Pasted image 20260331231608.png",
+    "bookmanager/Pasted image 20260331225634.png",
+    "bookmanager/Pasted image 20260331223525.png",
+    "bookmanager/Pasted image 20260331223506.png",
+    "MIPS指令系统.md",
     "data lab.md",
     "bookmanager/Pasted image 20260328105712.png",
     "bookmanager/Pasted image 20260328105612.png",
-    "字符串哈希.md",
+    "算法与数据结构（刷题为主）/字符串哈希.md",
     "算法与数据结构（刷题为主）/KMP算法.md",
     "算法与数据结构（刷题为主）/字典树.md",
     "数据的表示和运算.md",
     "算法与数据结构（刷题为主）/算法的方法汇总.md",
-    "MIPS指令系统.md",
     "计算机科学与技术/计算机网络.md",
     "计算机科学与技术/计算机科学与技术.md",
     "计算机科学与技术/数据结构与算法.md",
@@ -238,9 +242,6 @@
     "bookmanager/Pasted image 20260327235450.png",
     "bookmanager/Pasted image 20260327235401.png",
     "bookmanager/Pasted image 20260327235332.png",
-    "bookmanager/936d6ed3597862d8335fe5da18a5c1d3.jpg",
-    "bookmanager/b4dea0b996d379b57406f5fc0ce56817.jpg",
-    "bookmanager/7891599a92fb6e42ed2ff9c5b84e51d9.jpg",
     "bookmanager/表格_20260320.csv",
     "未命名.base",
     "bookmanager/第三章系统总线.pdf",
