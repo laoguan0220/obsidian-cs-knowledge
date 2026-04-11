@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MIPS指令系统.md",
+                "file": "算法与数据结构（刷题为主）/KMP算法.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "MIPS指令系统"
+              "title": "KMP算法"
             }
           }
         ],
@@ -212,10 +212,10 @@
   },
   "active": "5246fc413a43dbae",
   "lastOpenFiles": [
+    "MIPS指令系统.md",
     "dp算法.md",
     "算法与数据结构（刷题为主）/字符串哈希.md",
     "算法与数据结构（刷题为主）/字典树.md",
-    "MIPS指令系统.md",
     "数据的表示和运算.md",
     "data lab.md",
     "线性dp.md",
