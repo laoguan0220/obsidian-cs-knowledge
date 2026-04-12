@@ -2,5 +2,6 @@
   "showUnsupportedFiles": true,
   "newFileLocation": "root",
   "newFileFolderPath": "bookmanager",
-  "attachmentFolderPath": "bookmanager"
+  "attachmentFolderPath": "bookmanager",
+  "alwaysUpdateLinks": true
 }
