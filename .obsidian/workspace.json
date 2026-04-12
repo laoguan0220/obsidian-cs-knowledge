@@ -8,35 +8,34 @@
         "type": "tabs",
         "children": [
           {
-            "id": "1269113ef97a922e",
+            "id": "ff973d2e18b58ea8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "dp算法.md",
+                "file": "算法题目集/夏季特惠题目.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "dp算法"
+              "title": "夏季特惠题目"
             }
           },
           {
-            "id": "5246fc413a43dbae",
+            "id": "c8fd0a02a760d03c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "算法与数据结构（刷题为主）/KMP算法.md",
+                "file": "算法题目集/洛谷P3435.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "KMP算法"
+              "title": "洛谷P3435"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -55,8 +54,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "byCreatedTimeReverse",
-                "autoReveal": false
+                "sortOrder": "byModifiedTimeReverse",
+                "autoReveal": true
               },
               "icon": "lucide-folder-closed",
               "title": "文件列表"
@@ -68,7 +67,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#include",
+                "query": "tag:#dp算法",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -210,17 +209,30 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "5246fc413a43dbae",
+  "active": "7c3e9c69aca45163",
   "lastOpenFiles": [
-    "MIPS指令系统.md",
-    "dp算法.md",
+    "算法题目集/夏季特惠题目.md",
+    "算法与数据结构（刷题为主）/背包dp.md",
+    "算法与数据结构（刷题为主）/KMP算法.md",
+    "算法与数据结构（刷题为主）/线性dp.md",
+    "算法与数据结构（刷题为主）/dp算法.md",
     "算法与数据结构（刷题为主）/字符串哈希.md",
     "算法与数据结构（刷题为主）/字典树.md",
-    "数据的表示和运算.md",
-    "data lab.md",
-    "线性dp.md",
     "算法与数据结构（刷题为主）/算法的方法汇总.md",
-    "算法与数据结构（刷题为主）/KMP算法.md",
+    "算法题目集/洛谷P3435.md",
+    "2026-04-12.md",
+    "计算机科学与技术/编译原理.md",
+    "计算机科学与技术/计算机科学与技术.md",
+    "计算机科学与技术/高等数学.md",
+    "计算机科学与技术/操作系统.md",
+    "bookmanager/Pasted image 20260412115530.png",
+    "算法题目集/最长公共子串.md",
+    "算法题目集/最长公共子序列.md",
+    "计算机组成原理/data lab.md",
+    "算法题目集",
+    "计算机组成原理/数据的表示和运算.md",
+    "计算机组成原理/MIPS指令系统.md",
+    "计算机组成原理",
     "bookmanager/Pasted image 20260331231608.png",
     "bookmanager/Pasted image 20260331225634.png",
     "bookmanager/Pasted image 20260331223525.png",
@@ -228,35 +240,22 @@
     "bookmanager/Pasted image 20260328105712.png",
     "bookmanager/Pasted image 20260328105612.png",
     "计算机科学与技术/计算机网络.md",
-    "计算机科学与技术/计算机科学与技术.md",
     "计算机科学与技术/数据结构与算法.md",
-    "计算机科学与技术/编译原理.md",
     "计算机科学与技术/计算机组成原理.md",
     "计算机科学与技术/线性表.md",
     "计算机科学与技术/图.md",
     "计算机科学与技术/查找算法.md",
     "计算机科学与技术/栈.md",
-    "计算机科学与技术/队列.md",
-    "计算机科学与技术/操作系统.md",
     "bookmanager/Pasted image 20260328000600.png",
     "bookmanager/Pasted image 20260328000548.png",
     "算法与数据结构（刷题为主）",
     "bookmanager/Pasted image 20260327235450.png",
-    "bookmanager/Pasted image 20260327235401.png",
     "bookmanager/表格_20260320.csv",
     "未命名.base",
     "bookmanager/第三章系统总线.pdf",
     "计算机科学与技术/~$第三章系统总线.pptx",
-    "计算机科学与技术/人工智能.md",
-    "微积分/欧拉麦克劳林公式.md",
     "微积分",
     "bookmanager/~$第三章系统总线.pptx",
-    "计算机科学与技术/第三章系统总线.pptx",
-    "bookmanager",
-    "新建文件夹",
-    "2026-03-12.md",
-    "计算机科学与技术/C++ 程序设计.md",
-    "计算机科学与技术/树.md",
-    "计算机科学与技术/排序算法.md"
+    "计算机科学与技术/第三章系统总线.pptx"
   ]
 }
