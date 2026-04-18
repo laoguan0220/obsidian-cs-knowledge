@@ -41,16 +41,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "something useful/AI的一些好用的prompt.md",
+                "file": "操作系统/操作系统学习规划和目标.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "AI的一些好用的prompt"
+              "title": "操作系统学习规划和目标"
+            }
+          },
+          {
+            "id": "8e029518cbe13637",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "这周的题目.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "这周的题目"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -224,10 +238,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "21e41737706f3d73",
+  "active": "8e029518cbe13637",
   "lastOpenFiles": [
-    "something useful/常见的数学符号.md",
+    "xv6学习顺序.md",
+    "操作系统/操作系统学习规划和目标.md",
     "something useful/AI的一些好用的prompt.md",
+    "something useful/常见的数学符号.md",
     "这周的题目.md",
     "算法与数据结构（刷题为主）/字符串哈希.md",
     "算法与数据结构（刷题为主）/dp算法.md",
@@ -236,7 +252,6 @@
     "something useful",
     "算法题目集/贴海报.md",
     "操作系统/操作系统项目.md",
-    "操作系统/操作系统学习规划和目标.md",
     "未命名 1.md",
     "算法与数据结构（刷题为主）/算法的方法汇总.md",
     "算法与数据结构（刷题为主）/KMP算法.md",
