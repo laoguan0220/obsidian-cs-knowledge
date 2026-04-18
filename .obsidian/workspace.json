@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "算法与数据结构（刷题为主）/线段树.md",
+                "file": "something useful/AI的一些好用的prompt.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "线段树"
+              "title": "AI的一些好用的prompt"
             }
           }
         ],
@@ -224,30 +224,30 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "7c3e9c69aca45163",
+  "active": "21e41737706f3d73",
   "lastOpenFiles": [
+    "something useful/常见的数学符号.md",
+    "something useful/AI的一些好用的prompt.md",
+    "这周的题目.md",
+    "算法与数据结构（刷题为主）/字符串哈希.md",
+    "算法与数据结构（刷题为主）/dp算法.md",
+    "算法与数据结构（刷题为主）/树状数组.md",
+    "算法与数据结构（刷题为主）/线段树.md",
     "something useful",
     "算法题目集/贴海报.md",
-    "something useful/AI的一些好用的prompt.md",
     "操作系统/操作系统项目.md",
     "操作系统/操作系统学习规划和目标.md",
     "未命名 1.md",
-    "算法与数据结构（刷题为主）/线段树.md",
-    "这周的题目.md",
     "算法与数据结构（刷题为主）/算法的方法汇总.md",
     "算法与数据结构（刷题为主）/KMP算法.md",
-    "算法与数据结构（刷题为主）/字符串哈希.md",
     "算法与数据结构（刷题为主）/字典树.md",
     "算法与数据结构（刷题为主）/线性dp.md",
     "算法与数据结构（刷题为主）/背包dp.md",
-    "算法与数据结构（刷题为主）/树状数组.md",
-    "算法与数据结构（刷题为主）/dp算法.md",
     "bookmanager/Pasted image 20260415231352.png",
     "bookmanager/Pasted image 20260415231127.png",
     "bookmanager/Pasted image 20260415230851.png",
     "bookmanager/Pasted image 20260415230718.png",
     "操作系统/qemu模拟器.md",
-    "something useful/常见的数学符号.md",
     "算法题目集/得到回文串的最小次数.md",
     "算法题目集/最长递增子序列.md",
     "算法题目集/HH的项链.md",
@@ -270,7 +270,6 @@
     "未命名.base",
     "bookmanager/第三章系统总线.pdf",
     "计算机科学与技术/~$第三章系统总线.pptx",
-    "微积分",
-    "bookmanager/~$第三章系统总线.pptx"
+    "微积分"
   ]
 }
