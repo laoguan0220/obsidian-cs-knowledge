@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "这周的题目.md",
+                "file": "算法题目集/HH的项链.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "这周的题目"
+              "title": "HH的项链"
             }
           },
           {
@@ -55,16 +55,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "这周的题目.md",
+                "file": "算法题目集/HH的项链.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "这周的题目"
+              "title": "HH的项链"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -238,12 +238,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "7de4cd65d1b7d691",
+  "active": "8e029518cbe13637",
   "lastOpenFiles": [
-    "xv6学习顺序.md",
-    "c++ stl.md",
-    "HH的项链.md",
     "这周的题目.md",
+    "算法题目集/HH的项链.md",
+    "算法题目集/HH的项链.md",
+    "c++ stl.md",
+    "xv6学习顺序.md",
     "操作系统/操作系统学习规划和目标.md",
     "算法题目集/贴海报.md",
     "算法题目集/得到回文串的最小数目.md",
@@ -268,7 +269,6 @@
     "操作系统/qemu模拟器.md",
     "算法题目集/得到回文串的最小次数.md",
     "算法题目集/最长递增子序列.md",
-    "算法题目集/HH的项链.md",
     "bookmanager/Pasted image 20260415223703.png",
     "算法题目集/最后一块石头的重量.md",
     "算法题目集/最长公共子序列.md",
