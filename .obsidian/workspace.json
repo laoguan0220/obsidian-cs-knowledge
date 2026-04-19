@@ -41,26 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "算法题目集/HH的项链.md",
+                "file": "算法与数据结构（刷题为主）/线段树.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "HH的项链"
-            }
-          },
-          {
-            "id": "7de4cd65d1b7d691",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "算法题目集/HH的项链.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "HH的项链"
+              "title": "线段树"
             }
           }
         ],
@@ -240,12 +226,12 @@
   },
   "active": "8e029518cbe13637",
   "lastOpenFiles": [
+    "算法题目集/HH的项链.md",
+    "算法与数据结构（刷题为主）/线段树.md",
+    "操作系统/操作系统学习规划和目标.md",
     "这周的题目.md",
-    "算法题目集/HH的项链.md",
-    "算法题目集/HH的项链.md",
     "c++ stl.md",
     "xv6学习顺序.md",
-    "操作系统/操作系统学习规划和目标.md",
     "算法题目集/贴海报.md",
     "算法题目集/得到回文串的最小数目.md",
     "算法与数据结构（刷题为主）/树状数组.md",
@@ -253,7 +239,6 @@
     "something useful/常见的数学符号.md",
     "算法与数据结构（刷题为主）/字符串哈希.md",
     "算法与数据结构（刷题为主）/dp算法.md",
-    "算法与数据结构（刷题为主）/线段树.md",
     "something useful",
     "操作系统/操作系统项目.md",
     "未命名 1.md",
