@@ -1,3 +1,4 @@
+# 1 claude常用的快捷键和指令
 Claude Code 正在**帮你找 D 盘里名字带 `claude` 的文件夹**
 
 它执行的命令是：
@@ -30,7 +31,8 @@ find "D:/" -maxdepth 2 -type d -iname "*claude*"
 | `ctrl` + `s`           | 暂存当前输入的提示词（不提交）          |     |
 | `ctrl` + `g`           | 在系统默认编辑器（$EDITOR）中编辑输入内容 |     |
 | `/keybindings`         | 打开自定义快捷键的配置界面            |     |
-
+|                        |                          |     |
+# 2 claude 在执行任务时候可以并行的回答一些小问题
 **原文**：Tip: Use /btw to ask a quick side question without interrupting Claude's current work
 
 **译文**：小提示：使用 /btw 指令可提出简短的附带问题，且不会中断 Claude 当前的工作进程
@@ -56,3 +58,4 @@ cd "C:\Users\13411" && git status 2>/dev/null || echo "Not a git repository"
 2. 检查**当前文件夹是不是 Git 仓库**
 3. 如果是 → 显示状态
 4. 如果不是 → 显示 `Not a git repository`
+# 3

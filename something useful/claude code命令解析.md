@@ -1,4 +1,4 @@
-### 功能项逐行解析
+# 1 功能项逐行解析
 
 1. **`Context`**
     
@@ -31,7 +31,6 @@
     - 用途：撤销上一步的对话或 AI 操作，回到之前的对话状态，适合 AI 生成的代码 / 回答不满意时，快速回退修改。
 
 
-claude code 存放位置 C:\Users\13411\AppData\Local\Microsoft\WinGet\Packages\Anthropic.ClaudeCode_Microsoft.Winget.Source_8wekyb3d8bbwe\claude.exe
 
 #### 1. 是不是把`C:\Users\13411`作为工作目录？
 
@@ -51,42 +50,5 @@ claude code 存放位置 C:\Users\13411\AppData\Local\Microsoft\WinGet\Packages\
 
 **完全可以，而且非常推荐换**（你的用户主目录文件太多，AI 操作会冗余，换专属项目文件夹更精准），教你**2 种最常用的方法**，按需选：
 
-### 方法 1：启动前手动切换（推荐，最灵活）
-
-先在终端里进入**你想作为工作目录的文件夹**，再启动 Claude Code，AI 会自动把当前终端所在文件夹当作工作目录，不会再定位到用户主目录。
-
-#### 操作步骤（Windows 终端 / CMD/PowerShell 都适用）：
-
-1. 打开终端，用`cd`命令切换到目标文件夹（比如你想让 AI 操作`C:\Users\13411\code\leetcode`这个刷题文件夹）：
-    
-    bash
-    
-    运行
-    
-    ```
-    cd C:\Users\13411\code\leetcode
-    ```
-    
-2. 直接输入`claude`启动 AI，此时弹窗会显示工作目录是`C:\Users\13411\code\leetcode`，确认信任即可。
-
-### 方法 2：启动后修改（临时切换，适合中途换项目）
-
-如果已经启动 Claude Code 且进入了某个工作目录，想换成其他文件夹，直接在 AI 对话框里输入命令即可，无需重启：
-
-plaintext
-
-```
-/cd 你想切换的文件夹路径
-```
-
-#### 示例：
-
-plaintext
-
-```
-/cd C:\Users\13411\project\demo
-```
-
-执行后，AI 会自动切换工作目录到该文件夹，后续操作都在新目录里进行。
-
-### 额外重要提醒
+# 2 找到claude存放位置
+claude code 存放位置 C:\Users\13411\AppData\Local\Microsoft\WinGet\Packages\Anthropic.ClaudeCode_Microsoft.Winget.Source_8wekyb3d8bbwe\claude.exe
