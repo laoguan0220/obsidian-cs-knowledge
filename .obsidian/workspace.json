@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "something useful/linux的一些语句.md",
+                "file": "算法与数据结构（刷题为主）/Hotel G.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "linux的一些语句"
+              "title": "Hotel G"
             }
           }
         ],
@@ -224,12 +224,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "3ce0ea48f308416e",
+  "active": "7c3e9c69aca45163",
   "lastOpenFiles": [
+    "something useful/linux的一些语句.md",
     "ls-options.md",
     "vim.md",
-    "something useful/linux的一些语句.md",
-    "Hotel G.md",
+    "算法与数据结构（刷题为主）/Hotel G.md",
     "未命名",
     "算法与数据结构（刷题为主）/线段树维护更多区间的信息.md",
     "算法题目集/洛谷P3435.md",
