@@ -34,9 +34,23 @@
               "icon": "lucide-file",
               "title": "linux的一些语句"
             }
+          },
+          {
+            "id": "3ce0ea48f308416e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ls-options.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "ls-options"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -210,9 +224,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "7f42fcc44b42a887",
+  "active": "3ce0ea48f308416e",
   "lastOpenFiles": [
+    "something useful/linux的一些语句.md",
+    "ls-options.md",
+    "vim.md",
     "Hotel G.md",
+    "未命名",
     "算法与数据结构（刷题为主）/线段树维护更多区间的信息.md",
     "算法题目集/洛谷P3435.md",
     "算法题目集/夏季特惠题目.md",
@@ -229,15 +247,12 @@
     "算法题目集/无聊的数列.md",
     "算法题目集/得到回文串的最小次数.md",
     "something useful/AI的一些好用的prompt.md",
-    "something useful/linux的一些语句.md",
     "something useful/claude code命令解析.md",
     "something useful/如何下载网络上的东西到ubuntu里的文件夹.md",
     "something useful/claude code learning.md",
     "something useful/常见的数学符号.md",
     "something useful/vscode里的一些好用的操作.md",
     "操作系统/内核main函数.md",
-    "操作系统/xv6_RISC-V 2.md",
-    "操作系统/机器模式到监管者模式（内核模式）.md",
     "bookmanager/Pasted image 20260420233257.png",
     "something useful",
     "bookmanager/Pasted image 20260415231352.png",
@@ -256,7 +271,6 @@
     "bookmanager/表格_20260320.csv",
     "未命名.base",
     "bookmanager/第三章系统总线.pdf",
-    "计算机科学与技术/~$第三章系统总线.pptx",
-    "微积分"
+    "计算机科学与技术/~$第三章系统总线.pptx"
   ]
 }
