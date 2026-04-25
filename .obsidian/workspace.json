@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "算法与数据结构（刷题为主）/Hotel G.md",
+                "file": "something useful/常见的数学符号.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Hotel G"
+              "title": "常见的数学符号"
             }
           }
         ],
@@ -224,14 +224,20 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "7c3e9c69aca45163",
+  "active": "3ce0ea48f308416e",
   "lastOpenFiles": [
+    "something useful/如何下载网络上的东西到ubuntu里的文件夹.md",
+    "something useful/vscode里的一些好用的操作.md",
+    "something useful/常见的数学符号.md",
+    "something useful/claude code命令解析.md",
+    "something useful/claude code learning.md",
+    "something useful/AI的一些好用的prompt.md",
+    "算法与数据结构（刷题为主）/线段树维护更多区间的信息.md",
+    "算法与数据结构（刷题为主）/Hotel G.md",
     "something useful/linux的一些语句.md",
     "ls-options.md",
     "vim.md",
-    "算法与数据结构（刷题为主）/Hotel G.md",
     "未命名",
-    "算法与数据结构（刷题为主）/线段树维护更多区间的信息.md",
     "算法题目集/洛谷P3435.md",
     "算法题目集/夏季特惠题目.md",
     "算法题目集/目标和.md",
@@ -246,12 +252,6 @@
     "算法题目集/HH的项链.md",
     "算法题目集/无聊的数列.md",
     "算法题目集/得到回文串的最小次数.md",
-    "something useful/AI的一些好用的prompt.md",
-    "something useful/claude code命令解析.md",
-    "something useful/如何下载网络上的东西到ubuntu里的文件夹.md",
-    "something useful/claude code learning.md",
-    "something useful/常见的数学符号.md",
-    "something useful/vscode里的一些好用的操作.md",
     "操作系统/内核main函数.md",
     "bookmanager/Pasted image 20260420233257.png",
     "something useful",
