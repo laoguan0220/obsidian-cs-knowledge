@@ -52,3 +52,4 @@
 
 # 2 找到claude存放位置
 claude code 存放位置 C:\Users\13411\AppData\Local\Microsoft\WinGet\Packages\Anthropic.ClaudeCode_Microsoft.Winget.Source_8wekyb3d8bbwe\claude.exe
+# 3 /clear 开启一个新对话
