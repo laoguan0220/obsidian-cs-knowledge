@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "未命名.md",
+                "file": "算法题目集/Grid L.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "未命名"
+              "title": "Grid L"
             }
           }
         ]
@@ -195,10 +195,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "04315785e32c9e0a",
+  "active": "7c3e9c69aca45163",
   "lastOpenFiles": [
     "算法题目集/方阵谜题.md",
-    "未命名.md",
+    "算法题目集/Grid L.md",
     "未命名 1.base",
     "未命名.base",
     "bookmanager/5c56cb09d0178a65e98a263fc2868c41 1.jpg",
