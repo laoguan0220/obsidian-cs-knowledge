@@ -20,8 +20,23 @@
               "icon": "lucide-file",
               "title": "开点线段树"
             }
+          },
+          {
+            "id": "5dee88996e681181",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "琪露诺.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "琪露诺"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -195,8 +210,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "04315785e32c9e0a",
+  "active": "5dee88996e681181",
   "lastOpenFiles": [
+    "算法与数据结构（刷题为主）/开点线段树.md",
+    "琪露诺.md",
     "算法题目集/Grid L.md",
     "算法题目集/方阵谜题.md",
     "未命名 1.base",
@@ -209,7 +226,6 @@
     "算法题目集/G装配线.md",
     "算法题目集/洛谷P3435.md",
     "算法与数据结构（刷题为主）/dp算法.md",
-    "算法与数据结构（刷题为主）/开点线段树.md",
     "something useful/ls-options.md",
     "bookmanager/Pasted image 20260426150420.png",
     "something useful/claude code命令解析.md",
@@ -230,7 +246,6 @@
     "算法与数据结构（刷题为主）/字符串哈希.md",
     "算法与数据结构（刷题为主）/树状数组.md",
     "算法与数据结构（刷题为主）/KMP算法.md",
-    "算法与数据结构（刷题为主）/字典树.md",
     "bookmanager/Pasted image 20260420233257.png",
     "something useful",
     "bookmanager/Pasted image 20260415231352.png",
