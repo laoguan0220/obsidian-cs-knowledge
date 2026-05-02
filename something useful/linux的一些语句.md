@@ -114,3 +114,8 @@ vim 可以创建一个空的文件 如果你直接没有创建 但是你需要�
 esc +q 万能的公式 
 ctrl +h 左边文件树
 ctrl +l 右边代码区
+od -t x1 test.c 可以以十六进制形式查看二进制代码
+etc 系统的配置 参数 等等都放在这个文件夹里面
+shell的系统级配置文件 echo 能够帮你打印文字 输出内容 等等
+/etc/bashrc
+/etc/profile
