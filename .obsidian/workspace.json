@@ -4,24 +4,53 @@
     "type": "split",
     "children": [
       {
-        "id": "f86ce082f79a4324",
+        "id": "8ab7385c6cc48738",
         "type": "tabs",
         "children": [
           {
-            "id": "c8122cf2ed94b0be",
+            "id": "2c2fd7355906634e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "跟随企鹅.md",
+                "file": "算法与数据结构（刷题为主）/图论.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "跟随企鹅"
+              "title": "图论"
+            }
+          },
+          {
+            "id": "503e9d1943b4de9b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "算法与数据结构（刷题为主）/线性dp.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "线性dp"
+            }
+          },
+          {
+            "id": "dcaff9b529b12c02",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "算法与数据结构（刷题为主）/dp算法.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "dp算法"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -94,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "跟随企鹅.md",
+                "file": "算法与数据结构（刷题为主）/线性dp.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +133,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "跟随企鹅 的反向链接列表"
+              "title": "线性dp 的反向链接列表"
             }
           },
           {
@@ -193,11 +222,29 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c8122cf2ed94b0be",
+  "active": "503e9d1943b4de9b",
   "lastOpenFiles": [
-    "bookmanager/Pasted image 20260504125650.png",
+    "算法与数据结构（刷题为主）/dp算法.md",
+    "算法与数据结构（刷题为主）/字符串哈希.md",
+    "算法与数据结构（刷题为主）/算法的方法汇总.md",
+    "算法与数据结构（刷题为主）/图论.md",
+    "算法与数据结构（刷题为主）/树.md",
+    "bookmanager/Pasted image 20260504164450.png",
+    "算法与数据结构（刷题为主）/线性dp.md",
+    "算法与数据结构（刷题为主）/KMP算法.md",
+    "算法与数据结构（刷题为主）/字典树.md",
+    "算法与数据结构（刷题为主）/树状数组.md",
+    "算法与数据结构（刷题为主）/线段树.md",
+    "算法与数据结构（刷题为主）/线段树维护更多区间的信息.md",
+    "算法与数据结构（刷题为主）/开点线段树.md",
+    "算法与数据结构（刷题为主）/最小生成树.md",
+    "算法与数据结构（刷题为主）/最短路.md",
     "算法与数据结构（刷题为主）/背包dp.md",
+    "算法与数据结构（刷题为主）/c++ stl.md",
+    "算法与数据结构（刷题为主）/构造题目.md",
+    "算法与数据结构（刷题为主）/单调队列.md",
     "跟随企鹅.md",
+    "bookmanager/Pasted image 20260504125650.png",
     "算法题目集/Imaged Holly.md",
     "bookmanager/Pasted image 20260504120643.png",
     "算法题目集/凸多边形.md",
@@ -205,32 +252,13 @@
     "bookmanager/Pasted image 20260504111721.png",
     "something useful/常见的数学符号.md",
     "something useful/AI的一些好用的prompt.md",
-    "算法与数据结构（刷题为主）/单调队列.md",
-    "算法与数据结构（刷题为主）/图论.md",
     "算法题目集/不是路径查询的一道题.md",
     "算法题目集/建筑公司.md",
     "bookmanager/Pasted image 20260503231248.png",
     "bookmanager/Pasted image 20260503223427.png",
     "bookmanager/Pasted image 20260503211910.png",
-    "算法与数据结构（刷题为主）/c++ stl.md",
     "bookmanager/Pasted image 20260503195301.png",
-    "算法与数据结构（刷题为主）/算法的方法汇总.md",
     "bookmanager/Pasted image 20260503193701.png",
-    "算法题目集/数学问题.md",
-    "算法题目集/开关.md",
-    "算法题目集/目标和.md",
-    "算法与数据结构（刷题为主）/线段树维护更多区间的信息.md",
-    "算法与数据结构（刷题为主）/字符串哈希.md",
-    "算法与数据结构（刷题为主）/线性dp.md",
-    "算法题目集/匹配.md",
-    "bookmanager/Pasted image 20260503172053.png",
-    "bookmanager/Pasted image 20260503170717.png",
-    "算法与数据结构（刷题为主）/开点线段树.md",
-    "算法题目集/负重越野.md",
-    "算法与数据结构（刷题为主）/构造题目.md",
-    "算法与数据结构（刷题为主）/树状数组.md",
-    "算法与数据结构（刷题为主）/KMP算法.md",
-    "算法与数据结构（刷题为主）/dp算法.md",
     "未命名 1.base",
     "未命名.base",
     "未命名",
