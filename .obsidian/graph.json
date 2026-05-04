@@ -1,6 +1,6 @@
 {
   "collapse-filter": false,
-  "search": "tag:#树状数组",
+  "search": "",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
@@ -17,6 +17,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 1.0093737487925452,
+  "scale": 0.5747524252759996,
   "close": true
 }
