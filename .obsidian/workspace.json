@@ -4,38 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "0742f6d5fb0aa13f",
+        "id": "b8691e6bc238c66d",
         "type": "tabs",
         "children": [
           {
-            "id": "6f263f2c2951b176",
+            "id": "064b2563bb204a48",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "树形dp.md",
+                "file": "找数.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "树形dp"
+              "title": "找数"
             }
           },
           {
-            "id": "0f08ea6ee4720558",
+            "id": "925ad222e18babbc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "二叉树的高度.md",
-                "mode": "source",
+                "file": "找数.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "二叉树的高度"
+              "title": "找数"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -92,8 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 218.5069465637207,
-    "collapsed": true
+    "width": 218.5069465637207
   },
   "right": {
     "id": "b8f786d009ce6b5e",
@@ -209,12 +209,19 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6f263f2c2951b176",
+  "active": "925ad222e18babbc",
   "lastOpenFiles": [
+    "收徒.md",
+    "找数.md",
+    "逆元.md",
+    "关于如何想到按照y排序的呢？.md",
+    "bookmanager/Pasted image 20260505165456.png",
+    "bookmanager/Pasted image 20260505163600.png",
+    "算法与数据结构（刷题为主）/二叉树的高度.md",
+    "bookmanager/Pasted image 20260505162737.png",
+    "算法与数据结构（刷题为主）/树形dp.md",
     "bookmanager/Pasted image 20260505131958.png",
     "bookmanager/Pasted image 20260505130551.png",
-    "二叉树的高度.md",
-    "树形dp.md",
     "something useful/AI的一些好用的prompt.md",
     "bookmanager/Pasted image 20260505124330.png",
     "算法与数据结构（刷题为主）/dp算法.md",
@@ -224,7 +231,6 @@
     "未命名.md",
     "算法题目集/子串.md",
     "bookmanager/Pasted image 20260504222731.png",
-    "bookmanager/Pasted image 20260504211526.png",
     "算法与数据结构（刷题为主）/开点线段树.md",
     "算法与数据结构（刷题为主）/字符串哈希.md",
     "算法题目集/不是路径查询的一道题.md",
@@ -233,10 +239,7 @@
     "算法题目集/编辑距离.md",
     "算法题目集/快速求和.md",
     "算法题目集/最长公共子序列.md",
-    "bookmanager/Pasted image 20260504200530.png",
-    "bookmanager/Pasted image 20260504200204.png",
     "算法与数据结构（刷题为主）/线性dp.md",
-    "bookmanager/Pasted image 20260504200039.png",
     "算法与数据结构（刷题为主）/图论.md",
     "算法与数据结构（刷题为主）/算法的方法汇总.md",
     "算法与数据结构（刷题为主）/树.md",
@@ -244,9 +247,6 @@
     "算法与数据结构（刷题为主）/字典树.md",
     "算法与数据结构（刷题为主）/树状数组.md",
     "算法与数据结构（刷题为主）/线段树.md",
-    "算法与数据结构（刷题为主）/线段树维护更多区间的信息.md",
-    "算法与数据结构（刷题为主）/最小生成树.md",
-    "算法与数据结构（刷题为主）/最短路.md",
     "未命名 1.base",
     "未命名.base",
     "未命名",
