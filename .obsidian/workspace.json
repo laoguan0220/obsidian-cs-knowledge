@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#我",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 218.5069465637207,
-    "collapsed": true
+    "width": 218.5069465637207
   },
   "right": {
     "id": "b8f786d009ce6b5e",
@@ -197,6 +196,11 @@
   },
   "active": "72780ec08bf613bf",
   "lastOpenFiles": [
+    "bookmanager/Pasted image 20260505203319.png",
+    "bookmanager/Pasted image 20260505203100.png",
+    "算法题目集/找数.md",
+    "算法题目集/收徒.md",
+    "算法与数据结构（刷题为主）/树形dp.md",
     "bookmanager/Pasted image 20260505180055.png",
     "算法与数据结构（刷题为主）/树.md",
     "算法与数据结构（刷题为主）/费马小定理证明.md",
@@ -204,23 +208,18 @@
     "算法与数据结构（刷题为主）/费马小定理.md",
     "something useful/AI的一些好用的prompt.md",
     "something useful/常见的数学符号.md",
-    "算法题目集/找数.md",
     "bookmanager/Pasted image 20260505165904.png",
     "bookmanager/Pasted image 20260505165849.png",
     "算法与数据结构（刷题为主）/关于如何想到按照y排序的呢？.md",
-    "算法题目集/收徒.md",
     "逆元.md",
     "bookmanager/Pasted image 20260505165456.png",
     "bookmanager/Pasted image 20260505163600.png",
     "算法与数据结构（刷题为主）/二叉树的高度.md",
     "bookmanager/Pasted image 20260505162737.png",
-    "算法与数据结构（刷题为主）/树形dp.md",
     "bookmanager/Pasted image 20260505131958.png",
     "bookmanager/Pasted image 20260505130551.png",
     "bookmanager/Pasted image 20260505124330.png",
     "算法与数据结构（刷题为主）/dp算法.md",
-    "bookmanager/Pasted image 20260505123610.png",
-    "bookmanager/Pasted image 20260505123018.png",
     "算法题目集/子串.md",
     "算法与数据结构（刷题为主）/开点线段树.md",
     "算法与数据结构（刷题为主）/字符串哈希.md",
