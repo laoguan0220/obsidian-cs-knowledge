@@ -15,3 +15,5 @@ typedef pair<Int,int>pii; pair是两元组的意思 重命名为pii
 pii(a,b);这个是一个二元组 而struct使用{a,b,c};
 priority_queue它的堆顶是top() 而queue它的顶是front()
 比较规则写成 pii a和pii b就行了
+memset(ptr,value,num);
+按照字节逐个赋值为value
