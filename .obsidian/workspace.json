@@ -11,60 +11,13 @@
             "id": "712d7903bdb06121",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "选课.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "选课"
-            }
-          },
-          {
-            "id": "a33a6a4c289a547e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "算法与数据结构（刷题为主）/dfn序.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "dfn序"
-            }
-          },
-          {
-            "id": "700fe04e9021ada8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "选课.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "选课"
-            }
-          },
-          {
-            "id": "f27d864e077acda3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "算法题目集/相邻字符不同的最长路径.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "相邻字符不同的最长路径"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "关系图谱"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -121,8 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 218.5069465637207,
-    "collapsed": true
+    "width": 218.5069465637207
   },
   "right": {
     "id": "b8f786d009ce6b5e",
@@ -238,17 +190,19 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "700fe04e9021ada8",
+  "active": "712d7903bdb06121",
   "lastOpenFiles": [
     "算法与数据结构（刷题为主）/dfn序.md",
+    "算法题目集/选课.md",
+    "算法题目集/相邻字符不同的最长路径.md",
+    "本周要做的题目.md",
+    "bookmanager/Pasted image 20260507231738.png",
     "bookmanager/Pasted image 20260507215245.png",
     "bookmanager/Pasted image 20260507214741.png",
     "bookmanager/Pasted image 20260507213317.png",
     "算法与数据结构（刷题为主）/算法的方法汇总.md",
     "算法与数据结构（刷题为主）/搜索算法.md",
     "bookmanager/Pasted image 20260507144245.png",
-    "算法题目集/相邻字符不同的最长路径.md",
-    "选课.md",
     "算法与数据结构（刷题为主）/c++ stl.md",
     "算法与数据结构（刷题为主）/模拟与优化.md",
     "算法与数据结构（刷题为主）/数据结构/树.md",
@@ -272,7 +226,6 @@
     "算法题目集/方格取数1.md",
     "bookmanager/Pasted image 20260506235612.png",
     "bookmanager/Pasted image 20260506233143.png",
-    "bookmanager/Pasted image 20260506230006.png",
     "计算机组成原理/data lab.md",
     "计算机组成原理/MIPS指令系统.md",
     "形式语言与自动机复习/形式语言17A(1).pdf",
