@@ -181,6 +181,8 @@ mkdir -p a/b/c
 自动先建 a → 再建 b → 再建 c。
 在wsl里面创建文件夹
 rmdir 用于删除文件夹
+![[Pasted image 20260508140513.png]]
+
 # 用 GDB 查看 C 语言各数据类型大小（一步一步手把手）
 
 ## 核心原理
@@ -349,3 +351,21 @@ p sizeof(void*)
 ```
 
 我可以帮你把**32 位 vs 64 位 所有类型大小对照表**整理出来，你要吗？
+mv 旧文件 新文件 重新命名
+GDB 调试的基本流程
+
+  gcc -g insrtSort_1062.c -o sort      # 编译带调试信息
+  gdb ./sort                            # 启动 gdb
+
+  (gdb) break main                      # 在 main 设断点（可选）
+  (gdb) run                             # 运行程序
+  # 到这里就能看到 printf 输出了
+
+  (gdb) quit                            # 退出
+
+  快速检查
+
+  你可以在 GDB 里试：
+  (gdb) run
+  
+

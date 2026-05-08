@@ -8,16 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "712d7903bdb06121",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "关系图谱"
-            }
-          },
-          {
             "id": "aa8eb4a968ae6d1e",
             "type": "leaf",
             "state": {
@@ -31,8 +21,7 @@
               "title": "datalab学习"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -208,7 +197,12 @@
   },
   "active": "aa8eb4a968ae6d1e",
   "lastOpenFiles": [
+    "something useful/vscode里的一些好用的操作.md",
+    "something useful/vim.md",
+    "something useful/linux的一些语句.md",
+    "something useful/claude code命令解析.md",
     "datalab学习.md",
+    "bookmanager/Pasted image 20260508140513.png",
     "算法与数据结构（刷题为主）/dfn序.md",
     "算法题目集/选课.md",
     "算法题目集/相邻字符不同的最长路径.md",
@@ -236,14 +230,9 @@
     "算法与数据结构（刷题为主）/动态规划/dp算法.md",
     "算法与数据结构（刷题为主）/动态规划/树形dp.md",
     "bookmanager/Pasted image 20260507140724.png",
-    "算法题目集/到达首都的最小油耗.md",
     "bookmanager/Pasted image 20260507131258.png",
     "bookmanager/Pasted image 20260507125516.png",
-    "计算机组成原理/数据的表示和运算.md",
-    "算法题目集/方格取数1.md",
     "bookmanager/Pasted image 20260506235612.png",
-    "bookmanager/Pasted image 20260506233143.png",
-    "计算机组成原理/data lab.md",
     "形式语言与自动机复习/形式语言17A(1).pdf",
     "算法与数据结构（刷题为主）/图论",
     "算法与数据结构（刷题为主）/字符串",
