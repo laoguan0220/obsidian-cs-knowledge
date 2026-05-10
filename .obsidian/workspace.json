@@ -8,13 +8,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "3cafea6895061190",
+            "id": "0de6af73d8bf4888",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "带权并查集.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "带权并查集"
             }
           }
         ]
@@ -190,14 +194,18 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "7c3e9c69aca45163",
+  "active": "0de6af73d8bf4888",
   "lastOpenFiles": [
-    "算法题目集/最大数码.md",
+    "bookmanager/Pasted image 20260510200630.png",
     "算法与数据结构（刷题为主）/思维题.md",
+    "带权并查集.md",
+    "算法与数据结构（刷题为主）/子数组最大累加和以及拓展问题.md",
+    "算法与数据结构（刷题为主）/搜索算法.md",
+    "算法与数据结构（刷题为主）/算法的方法汇总.md",
+    "算法题目集/最大数码.md",
     "操作系统/datalab学习.md",
     "算法与数据结构（刷题为主）/算法的一些小技巧.md",
     "算法题目集/奇怪的排序.md",
-    "算法与数据结构（刷题为主）/子数组最大累加和以及拓展问题.md",
     "bookmanager/Pasted image 20260509220230.png",
     "算法与数据结构（刷题为主）/动态规划/dp算法.md",
     "算法与数据结构（刷题为主）/动态规划/树形dp.md",
@@ -217,8 +225,6 @@
     "bookmanager/Pasted image 20260507215245.png",
     "bookmanager/Pasted image 20260507214741.png",
     "bookmanager/Pasted image 20260507213317.png",
-    "算法与数据结构（刷题为主）/算法的方法汇总.md",
-    "算法与数据结构（刷题为主）/搜索算法.md",
     "bookmanager/Pasted image 20260507144245.png",
     "算法与数据结构（刷题为主）/c++ stl.md",
     "算法与数据结构（刷题为主）/模拟与优化.md",
@@ -226,8 +232,6 @@
     "算法与数据结构（刷题为主）/数据结构/字典树.md",
     "算法与数据结构（刷题为主）/数据结构/树状数组.md",
     "算法与数据结构（刷题为主）/数据结构/线段树.md",
-    "算法与数据结构（刷题为主）/数据结构/线段树维护更多区间的信息.md",
-    "算法与数据结构（刷题为主）/数据结构/单调队列.md",
     "形式语言与自动机复习/形式语言17A(1).pdf",
     "算法与数据结构（刷题为主）/图论",
     "算法与数据结构（刷题为主）/字符串",
