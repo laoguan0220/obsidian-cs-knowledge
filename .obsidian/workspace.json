@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "本周要做的题目.md",
+                "file": "子数组最大累加和以及拓展问题.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "本周要做的题目"
+              "title": "子数组最大累加和以及拓展问题"
             }
           }
         ]
@@ -196,13 +196,14 @@
   },
   "active": "c46250c7bd88ba6d",
   "lastOpenFiles": [
+    "bookmanager/Pasted image 20260509220230.png",
     "datalab学习.md",
     "算法的一些小技巧.md",
     "算法与数据结构（刷题为主）/动态规划/dp算法.md",
     "算法与数据结构（刷题为主）/动态规划/树形dp.md",
     "算法与数据结构（刷题为主）/动态规划/背包dp.md",
     "算法题目集/选课.md",
-    "本周要做的题目.md",
+    "子数组最大累加和以及拓展问题.md",
     "something useful/vim.md",
     "bookmanager/Pasted image 20260508231641.png",
     "bookmanager/Pasted image 20260508160329.png",
@@ -230,7 +231,6 @@
     "算法与数据结构（刷题为主）/数据结构/单调队列.md",
     "算法与数据结构（刷题为主）/数据结构/开点线段树.md",
     "算法与数据结构（刷题为主）/动态规划/线性dp.md",
-    "算法与数据结构（刷题为主）/构造题目.md",
     "bookmanager/Pasted image 20260507140724.png",
     "形式语言与自动机复习/形式语言17A(1).pdf",
     "算法与数据结构（刷题为主）/图论",
