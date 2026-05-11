@@ -4,21 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "4670f3eb386eb1e0",
+        "id": "3698d8d022807330",
         "type": "tabs",
         "children": [
           {
-            "id": "b21e593729ea427c",
+            "id": "b85a9914412f1516",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "食物链.md",
+                "file": "待解决的题目.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "食物链"
+              "title": "待解决的题目"
+            }
+          },
+          {
+            "id": "561dabf15c965f3b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "算法与数据结构（刷题为主）/经典并查集.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "经典并查集"
             }
           }
         ]
@@ -194,9 +208,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b21e593729ea427c",
+  "active": "b85a9914412f1516",
   "lastOpenFiles": [
-    "食物链.md",
+    "关押罪犯.md",
+    "算法与数据结构（刷题为主）/经典并查集.md",
+    "bookmanager/Pasted image 20260511152227.png",
+    "bookmanager/Pasted image 20260511145423.png",
+    "算法题目集/食物链.md",
+    "算法与数据结构（刷题为主）/c++ stl.md",
     "算法题目集/除法求值.md",
     "bookmanager/第三章系统总线.pdf",
     "待解决的题目.md",
@@ -225,14 +244,8 @@
     "something useful/vim.md",
     "bookmanager/Pasted image 20260508231641.png",
     "bookmanager/Pasted image 20260508160329.png",
-    "bookmanager/Pasted image 20260508153630.png",
     "something useful/vscode里的一些好用的操作.md",
     "something useful/linux的一些语句.md",
-    "something useful/claude code命令解析.md",
-    "bookmanager/Pasted image 20260508140513.png",
-    "算法与数据结构（刷题为主）/dfn序.md",
-    "算法题目集/相邻字符不同的最长路径.md",
-    "算法与数据结构（刷题为主）/c++ stl.md",
     "形式语言与自动机复习/形式语言17A(1).pdf",
     "算法与数据结构（刷题为主）/图论",
     "算法与数据结构（刷题为主）/字符串",
