@@ -4,49 +4,63 @@
     "type": "split",
     "children": [
       {
-        "id": "3698d8d022807330",
+        "id": "81d4a0a7e647e7b3",
         "type": "tabs",
         "children": [
           {
-            "id": "b85a9914412f1516",
+            "id": "7266168e5e70eb8a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "待解决的题目.md",
+                "file": "彩虹子树组.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "待解决的题目"
+              "title": "彩虹子树组"
             }
           },
           {
-            "id": "487b29228bccfb7f",
+            "id": "b016266c206ecb24",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "待解决的题目.md",
+                "file": "可持久化线段树.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "待解决的题目"
+              "title": "可持久化线段树"
             }
           },
           {
-            "id": "5d252ce8e6675d50",
+            "id": "505b612cf68eff2f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "团伙.md",
+                "file": "第k小的数.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "团伙"
+              "title": "第k小的数"
+            }
+          },
+          {
+            "id": "f1e1d4d100b62c82",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "算法与数据结构（刷题为主）/c++ stl.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "c++ stl"
             }
           }
         ],
@@ -107,7 +121,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 218.5069465637207
+    "width": 218.5069465637207,
+    "collapsed": true
   },
   "right": {
     "id": "b8f786d009ce6b5e",
@@ -223,44 +238,45 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "5d252ce8e6675d50",
+  "active": "505b612cf68eff2f",
   "lastOpenFiles": [
-    "待解决的题目.md",
-    "来自知识的礼物.md",
-    "bookmanager/Pasted image 20260511230720.png",
-    "团伙.md",
-    "bookmanager/Pasted image 20260511213524.png",
-    "The Door Problem.md",
-    "关押罪犯.md",
-    "算法与数据结构（刷题为主）/经典并查集.md",
-    "bookmanager/Pasted image 20260511152227.png",
-    "bookmanager/Pasted image 20260511145423.png",
-    "算法题目集/食物链.md",
+    "bookmanager/Pasted image 20260512151511.png",
+    "第k小的数.md",
+    "可持久化线段树.md",
+    "彩虹子树组.md",
+    "权值线段树.md",
     "算法与数据结构（刷题为主）/c++ stl.md",
+    "bookmanager/Pasted image 20260512143803.png",
+    "bookmanager/Pasted image 20260512132515.png",
+    "bookmanager/Pasted image 20260512131104.png",
+    "bookmanager/Pasted image 20260512130839.png",
+    "双指针.md",
+    "待解决的题目.md",
+    "bookmanager/Pasted image 20260512124459.png",
+    "bookmanager/Pasted image 20260512124415.png",
+    "算法与数据结构（刷题为主）/带权并查集.md",
+    "算法与数据结构（刷题为主）/经典并查集.md",
+    "算法与数据结构（刷题为主）/子数组最大累加和以及拓展问题.md",
+    "算法与数据结构（刷题为主）/思维题.md",
+    "算法题目集/异或关系.md",
+    "bookmanager/Pasted image 20260512122939.png",
+    "算法题目集/The Door Problem.md",
+    "算法题目集/关押罪犯.md",
+    "算法题目集/来自知识的礼物.md",
+    "算法题目集/团伙.md",
+    "bookmanager/Pasted image 20260511230720.png",
+    "bookmanager/Pasted image 20260511213524.png",
+    "bookmanager/Pasted image 20260511152227.png",
+    "算法题目集/食物链.md",
     "算法题目集/除法求值.md",
     "bookmanager/第三章系统总线.pdf",
-    "算法与数据结构（刷题为主）/子数组最大累加和以及拓展问题.md",
-    "bookmanager/Pasted image 20260511132519.png",
-    "算法与数据结构（刷题为主）/带权并查集.md",
-    "算法与数据结构（刷题为主）/思维题.md",
     "算法题目集/银河英雄传说.md",
-    "bookmanager/Pasted image 20260511124027.png",
     "算法题目集/狡猾的商人.md",
-    "bookmanager/Pasted image 20260511123519.png",
     "算法题目集/推导部分和.md",
-    "bookmanager/Pasted image 20260510210710.png",
-    "bookmanager/Pasted image 20260510200630.png",
     "算法与数据结构（刷题为主）/搜索算法.md",
     "算法与数据结构（刷题为主）/算法的方法汇总.md",
     "算法题目集/最大数码.md",
     "操作系统/datalab学习.md",
-    "算法与数据结构（刷题为主）/算法的一些小技巧.md",
-    "算法题目集/奇怪的排序.md",
-    "bookmanager/Pasted image 20260509220230.png",
-    "算法与数据结构（刷题为主）/动态规划/dp算法.md",
-    "算法与数据结构（刷题为主）/动态规划/树形dp.md",
-    "算法与数据结构（刷题为主）/动态规划/背包dp.md",
-    "算法题目集/选课.md",
     "形式语言与自动机复习/形式语言17A(1).pdf",
     "算法与数据结构（刷题为主）/图论",
     "算法与数据结构（刷题为主）/字符串",
