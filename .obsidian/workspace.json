@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "50685c9695f8ea7e",
+        "id": "aa261770fbae7b15",
         "type": "tabs",
         "children": [
           {
-            "id": "adc1a88022fe91d2",
+            "id": "58152776a47cd187",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "未命名.md",
+                "file": "学而时习之.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "未命名"
+              "title": "学而时习之"
             }
           }
         ]
@@ -195,10 +195,17 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "adc1a88022fe91d2",
+  "active": "58152776a47cd187",
   "lastOpenFiles": [
+    "bookmanager/Pasted image 20260513233154.png",
+    "bookmanager/Pasted image 20260513233142.png",
+    "bookmanager/Pasted image 20260513233128.png",
+    "bookmanager/Pasted image 20260513232840.png",
+    "bookmanager/Pasted image 20260513232757.png",
+    "bookmanager/Pasted image 20260513232629.png",
+    "算法题目集/乐观向上.md",
+    "学而时习之.md",
     "bookmanager/Pasted image 20260513232048.png",
-    "未命名.md",
     "算法与数据结构（刷题为主）/权值线段树.md",
     "算法与数据结构（刷题为主）/带权并查集.md",
     "算法与数据结构（刷题为主）/思维题.md",
@@ -223,16 +230,9 @@
     "bookmanager/Pasted image 20260513153409.png",
     "算法与数据结构（刷题为主）/可持久化线段树.md",
     "算法与数据结构（刷题为主）/双指针.md",
-    "something useful/latex数学公式的练习.md",
     "bookmanager/Pasted image 20260513145952.png",
     "bookmanager/Pasted image 20260513145854.png",
     "bookmanager/Pasted image 20260513145059.png",
-    "bookmanager/Pasted image 20260512151511.png",
-    "bookmanager/Pasted image 20260512143803.png",
-    "bookmanager/Pasted image 20260512132515.png",
-    "bookmanager/Pasted image 20260512131104.png",
-    "bookmanager/Pasted image 20260512130839.png",
-    "bookmanager/Pasted image 20260512124459.png",
     "bookmanager/第三章系统总线.pdf",
     "形式语言与自动机复习/形式语言17A(1).pdf",
     "算法与数据结构（刷题为主）/图论",
