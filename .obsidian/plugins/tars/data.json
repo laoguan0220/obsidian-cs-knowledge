@@ -15,6 +15,16 @@
           "top_p": 0.1
         }
       }
+    },
+    {
+      "tag": "Kimi",
+      "vendor": "Kimi",
+      "options": {
+        "apiKey": "",
+        "baseURL": "https://api.moonshot.cn/v1/chat/completions",
+        "model": "",
+        "parameters": {}
+      }
     }
   ],
   "systemTags": [
