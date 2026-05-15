@@ -189,14 +189,23 @@
               "icon": "git-pull-request",
               "title": "Source Control"
             }
+          },
+          {
+            "id": "f1f64875846fb792",
+            "type": "leaf",
+            "state": {
+              "type": "copilot-chat-view",
+              "state": {},
+              "icon": "message-square",
+              "title": "Copilot"
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
-    "width": 283.5,
-    "collapsed": true
+    "width": 465.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -207,11 +216,42 @@
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
       "bases:新建数据库": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "copilot:Open Copilot Chat": false
     }
   },
   "active": "07b89560d99e0317",
   "lastOpenFiles": [
+    "算法与数据结构（刷题为主）/带权并查集.md",
+    "copilot/copilot-conversations/List_Related_Notes@20260515_181226.md",
+    "copilot/memory/Recent Conversations.md",
+    "copilot/memory",
+    "算法与数据结构（刷题为主）/经典并查集.md",
+    "算法与数据结构（刷题为主）/权值线段树.md",
+    "算法与数据结构（刷题为主）/双指针.md",
+    "算法与数据结构（刷题为主）/算法的一些小技巧.md",
+    "算法与数据结构（刷题为主）/子数组最大累加和以及拓展问题.md",
+    "算法与数据结构（刷题为主）/思维题.md",
+    "算法与数据结构（刷题为主）/dfn序.md",
+    "线段树维护历史最值问题.md",
+    "copilot/copilot-conversations/Historical_Segment_Tree_Improvements@20260515_175916.md",
+    "copilot/copilot-conversations/Extracting_Insights_from_Notes@20260515_175806.md",
+    "copilot/copilot-conversations/双指针最近更新@20260515_175617.md",
+    "copilot/copilot-conversations/Roast_my_writing_in_note_and_give_concrete_actionable_feedback@20260515_173937.md",
+    "copilot/copilot-conversations",
+    "copilot/copilot-custom-prompts/Clip Web Page.md",
+    "copilot/copilot-custom-prompts/Clip YouTube Transcript.md",
+    "copilot/copilot-custom-prompts/Rewrite as tweet thread.md",
+    "copilot/copilot-custom-prompts/Rewrite as tweet.md",
+    "copilot/copilot-custom-prompts/Remove URLs.md",
+    "copilot/copilot-custom-prompts/Generate glossary.md",
+    "copilot/copilot-custom-prompts/Generate table of contents.md",
+    "copilot/copilot-custom-prompts/Make longer.md",
+    "copilot/copilot-custom-prompts/Make shorter.md",
+    "copilot/copilot-custom-prompts/Emojify.md",
+    "copilot/copilot-custom-prompts/Explain like I am 5.md",
+    "copilot/copilot-custom-prompts",
+    "copilot",
     "bookmanager/Pasted image 20260515171955.png",
     "bookmanager/Pasted image 20260515165637.png",
     "bookmanager/Pasted image 20260515164128.png",
@@ -220,43 +260,13 @@
     "bookmanager/Pasted image 20260515163610.png",
     "bookmanager/Pasted image 20260515152437.png",
     "bookmanager/Pasted image 20260515132956.png",
-    "待解决的题目.md",
-    "线段树维护历史最值问题.md",
-    "算法与数据结构（刷题为主）/扫描线.md",
-    "天际线.md",
-    "未命名.md",
     "bookmanager/Pasted image 20260515125424.png",
-    "学而时习之.md",
     "bookmanager/Pasted image 20260514232758.png",
-    "bookmanager/Pasted image 20260514232717.png",
-    "算法题目集/包含每个查询的最小区间.md",
-    "一道关于划分区间的极限题目.md",
-    "算法题目集/乐观向上.md",
-    "算法与数据结构（刷题为主）/权值线段树.md",
-    "算法与数据结构（刷题为主）/带权并查集.md",
-    "算法与数据结构（刷题为主）/思维题.md",
-    "算法与数据结构（刷题为主）/动态规划/dp算法.md",
-    "算法与数据结构（刷题为主）/动态规划/线性dp.md",
-    "算法与数据结构（刷题为主）/图论/最小生成树.md",
-    "算法与数据结构（刷题为主）/图论/最短路.md",
-    "计算机组成原理/data lab.md",
-    "计算机组成原理/数据的表示和运算.md",
-    "计算机组成原理/MIPS指令系统.md",
-    "算法题目集/贪婪大陆.md",
-    "算法与数据结构（刷题为主）/关于如何想到按照y排序的呢？.md",
-    "算法与数据结构（刷题为主）/动态规划/树形dp.md",
-    "算法与数据结构（刷题为主）/数论.md",
-    "算法与数据结构（刷题为主）/第k小的数.md",
-    "算法与数据结构（刷题为主）/c++ stl.md",
     "bookmanager/第三章系统总线.pdf",
     "形式语言与自动机复习/形式语言17A(1).pdf",
     "算法与数据结构（刷题为主）/图论",
     "算法与数据结构（刷题为主）/字符串",
     "算法与数据结构（刷题为主）/数据结构/未命名",
-    "算法与数据结构（刷题为主）/动态规划",
-    "算法与数据结构（刷题为主）/数据结构",
-    "形式语言与自动机复习/2021秋__19级形式语言考经(1).pdf",
-    "形式语言与自动机复习/第四章---正则表达式.ppt",
-    "形式语言与自动机复习/第六章---上下文无关文法.ppt"
+    "算法与数据结构（刷题为主）/动态规划"
   ]
 }
