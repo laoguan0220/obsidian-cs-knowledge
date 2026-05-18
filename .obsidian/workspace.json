@@ -13,30 +13,29 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "货车运输.md",
+                "file": "检查树上两节点间的路径是否是回文.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "货车运输"
+              "title": "检查树上两节点间的路径是否是回文"
             }
           },
           {
-            "id": "b1a7e9db96257a30",
+            "id": "07b4717c2b5f6fca",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "边权重均等查询.md",
+                "file": "算法与数据结构（刷题为主）/字符串/字符串哈希.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "边权重均等查询"
+              "title": "字符串哈希"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -68,7 +67,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "最小生成树",
+                "query": "字符串哈希",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -89,7 +88,8 @@
               "title": "书签"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -221,12 +221,21 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "b1a7e9db96257a30",
+  "active": "83352ac6c95c8166",
   "lastOpenFiles": [
+    "bookmanager/Pasted image 20260518225758.png",
+    "算法与数据结构（刷题为主）/字符串/字符串哈希.md",
+    "检查树上两节点间的路径是否是回文.md",
     "货车运输.md",
+    "bookmanager/Pasted image 20260518223854.png",
+    "倍增思想.md",
+    "在传球游戏中最大化函数值.md",
+    "bookmanager/Pasted image 20260518221957.png",
+    "边权重均等查询.md",
+    "bookmanager/Pasted image 20260518215315.png",
+    "bookmanager/Pasted image 20260518215230.png",
     "算法与数据结构（刷题为主）/图论/最小生成树.md",
     "紧急集合.md",
-    "边权重均等查询.md",
     "bookmanager/Pasted image 20260518210535.png",
     "bookmanager/Pasted image 20260518194025.png",
     "树上倍增和求lca问题.md",
@@ -255,15 +264,7 @@
     "数学学习/微积分/未命名",
     "数学学习/微积分",
     "数学学习",
-    "待解决的题目.md",
-    "算法与数据结构（刷题为主）/摩尔投票算法.md",
     "bookmanager/Pasted image 20260516144424.png",
-    "bookmanager/Pasted image 20260516135108.png",
-    "bookmanager/Pasted image 20260516134543.png",
-    "算法与数据结构（刷题为主）/模拟与优化.md",
-    "算法与数据结构（刷题为主）/第k小的数.md",
-    "bookmanager/Pasted image 20260515221700.png",
-    "bookmanager/Pasted image 20260515221234.png",
     "bookmanager/第三章系统总线.pdf",
     "copilot/memory",
     "copilot/copilot-conversations",
