@@ -93,7 +93,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 218.5069465637207
+    "width": 218.5069465637207,
+    "collapsed": true
   },
   "right": {
     "id": "b8f786d009ce6b5e",
@@ -223,6 +224,7 @@
   },
   "active": "83352ac6c95c8166",
   "lastOpenFiles": [
+    "形式语言与自动机复习/第一章---绪论.pdf",
     "三进制状压dp.md",
     "树上倍增和求lca问题.md",
     "bookmanager/Pasted image 20260517230843.png",
@@ -258,7 +260,6 @@
     "算法与数据结构（刷题为主）/线段树维护区间最值和历史最值问题.md",
     "算法与数据结构（刷题为主）/c++ stl.md",
     "算法与数据结构（刷题为主）/算法的一些小技巧.md",
-    "算法与数据结构（刷题为主）/动态规划/背包dp.md",
     "bookmanager/Pasted image 20260515221700.png",
     "bookmanager/Pasted image 20260515221234.png",
     "bookmanager/Pasted image 20260515205653.png",
