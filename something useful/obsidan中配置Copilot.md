@@ -139,3 +139,71 @@ https://mojie.xn--yrs494l.com/dashboard
 ```cpp
 这个可以用于写cpp代码
 ```
+```cpp
+#include <iostream>
+
+#include <cstdlib>
+
+using namespace std;
+
+  
+
+int main()
+
+{
+
+    // 【只编译一次！】
+
+    system("g++ data1.cpp -o data");
+
+    system("g++ P3304.cpp -o 1.exe");
+
+    system("g++ PPP3304.cpp -o 2.exe");
+
+  
+
+    while (true)
+
+    {
+
+        cout<<1<<endl;
+
+        // 只生成数据 + 运行 + 对比
+
+    system("data.exe > aa.txt");
+
+    system("1.exe < aa.txt > bb1.txt");
+
+    system("2.exe < aa.txt > bb2.txt");
+
+    cout<<2<<endl;
+
+        int diff = system("fc bb1.txt bb2.txt");
+
+  
+
+        if (diff != 0)
+
+        {
+
+            cout << "\n===== WA 找到错误！=====\n";
+
+            cout << "输入：in.txt\n";
+
+            cout << "你的输出：out1.txt\n";
+
+            cout << "正确输出：out2.txt\n";
+
+            break;
+
+        }
+
+        cout << "AC"<<endl;
+
+    }
+
+    return 0;
+
+}
+//对拍器
+```
