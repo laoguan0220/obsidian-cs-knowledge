@@ -136,3 +136,6 @@
 ctrl +P force reindex value
 vpn:
 https://mojie.xn--yrs494l.com/dashboard
+```cpp
+这个可以用于写cpp代码
+```
