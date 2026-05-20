@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "巡逻.md",
+                "file": "算法题目集/巡逻.md",
                 "mode": "source",
                 "source": false
               },
@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "消防.md",
+                "file": "轮廓线dp.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "消防"
+              "title": "轮廓线dp"
             }
           }
         ],
@@ -223,20 +223,20 @@
   },
   "active": "abcf2f3cb2e4dade",
   "lastOpenFiles": [
-    "巡逻.md",
-    "消防.md",
-    "未命名.md",
+    "CMU炸弹实验体会.md",
+    "算法题目集/巡逻.md",
+    "轮廓线dp.md",
+    "算法题目集/消防.md",
     "bookmanager/Pasted image 20260520170934.png",
     "bookmanager/Pasted image 20260520145903.png",
     "bookmanager/Pasted image 20260520140423.png",
-    "树的直径.md",
+    "算法与数据结构（刷题为主）/树的直径.md",
     "bookmanager/Pasted image 20260520130640.png",
     "something useful/obsidan中配置Copilot.md",
     "bookmanager/Pasted image 20260519224220.png",
     "bookmanager/Pasted image 20260519202209.png",
     "bookmanager/Pasted image 20260519200146.png",
     "待解决的题目.md",
-    "CMU炸弹实验体会.md",
     "bookmanager/Pasted image 20260519150916.png",
     "bookmanager/Pasted image 20260519143830.png",
     "bookmanager/Pasted image 20260519143643.png",
