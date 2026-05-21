@@ -246,3 +246,312 @@ int lca(int u, int v) {
 需要我给你一份**倍增法 LCA 的完整可运行代码**（包含输入输出和样例）吗？
 
 
+```cpp迭代法求lca
+#include<bits/stdc++.h>
+using namespace std;
+
+const int N = 3e5 + 10;
+const int LOG = 20; // 2^19 > 3e5，所以 0~19 足够
+
+struct Edge {
+    int to;
+    int w;
+};
+
+vector<Edge> g[N];
+
+int n, m;
+int depth[N];
+int fa[N][LOG];
+long long distRoot[N]; // 如果不需要距离，可以删掉
+
+void build_lca_iterative(int root = 1)
+{
+    vector<int> order;
+    order.reserve(n);
+
+    stack<int> st;
+    st.push(root);
+
+    fa[root][0] = 0;
+    depth[root] = 1;
+    distRoot[root] = 0;
+
+    while (!st.empty())
+    {
+        int u = st.top();
+        st.pop();
+
+        order.push_back(u);
+
+        for (auto e : g[u])
+        {
+            int v = e.to;
+            int w = e.w;
+
+            if (v == fa[u][0]) continue;
+
+            fa[v][0] = u;
+            depth[v] = depth[u] + 1;
+            distRoot[v] = distRoot[u] + w;
+
+            st.push(v);
+        }
+    }
+
+    for (int j = 1; j < LOG; j++)
+    {
+        for (int i = 1; i <= n; i++)
+        {
+            fa[i][j] = fa[fa[i][j - 1]][j - 1];
+        }
+    }
+}
+
+int lca(int x, int y)
+{
+    if (depth[x] < depth[y])
+    {
+        swap(x, y);
+    }
+
+    int diff = depth[x] - depth[y];
+
+    for (int j = LOG - 1; j >= 0; j--)
+    {
+        if ((diff >> j) & 1)
+        {
+            x = fa[x][j];
+        }
+    }
+
+    if (x == y) return x;
+
+    for (int j = LOG - 1; j >= 0; j--)
+    {
+        if (fa[x][j] != fa[y][j])
+        {
+            x = fa[x][j];
+            y = fa[y][j];
+        }
+    }
+
+    return fa[x][0];
+}
+
+long long get_dist(int u, int v)
+{
+    int g = lca(u, v);
+    return distRoot[u] + distRoot[v] - 2LL * distRoot[g];
+}
+int main()
+{
+    ios::sync_with_stdio(false);
+    cin.tie(nullptr);
+
+    cin >> n >> m;
+
+    for (int i = 1; i < n; i++)
+    {
+        int u, v, w;
+        cin >> u >> v >> w;
+
+        g[u].push_back({v, w});
+        g[v].push_back({u, w});
+    }
+
+    build_lca_iterative(1);
+
+    while (m--)
+    {
+        int u, v;
+        cin >> u >> v;
+
+        cout << lca(u, v) << '\n';
+        // 如果要求距离：
+        // cout << get_dist(u, v) << '\n';
+    }
+
+    return 0;
+}
+```
+```cpp
+#include<bits/stdc++.h>
+using namespace std;
+
+const int N = 3e5 + 10;
+
+struct Edge {
+    int to;
+    int w;
+};
+
+struct Query {
+    int to;
+    int id;
+};
+
+struct Event {
+    int type;
+    int u;
+    int v;
+    // type = 0: 进入节点 u，父亲是 v
+    // type = 1: 合并 u 和它的儿子 v
+    // type = 2: 退出节点 u，处理询问
+};
+
+vector<Edge> g[N];
+vector<Query> q[N];
+
+int n, m;
+
+int dsu[N];
+int ancestor[N];
+bool vis[N];
+
+int parentTree[N];
+long long distRoot[N];
+
+int ansLca[N];
+
+int findset(int x)
+{
+    int root = x;
+
+    while (dsu[root] != root)
+    {
+        root = dsu[root];
+    }
+
+    while (dsu[x] != x)
+    {
+        int t = dsu[x];
+        dsu[x] = root;
+        x = t;
+    }
+
+    return root;
+}
+
+void tarjan_lca_iterative(int root = 1)
+{
+    stack<Event> st;
+
+    parentTree[root] = 0;
+    distRoot[root] = 0;
+
+    st.push({0, root, 0});
+
+    while (!st.empty())
+    {
+        Event cur = st.top();
+        st.pop();
+
+        int type = cur.type;
+        int u = cur.u;
+        int v = cur.v;
+
+        if (type == 0)
+        {
+            // 进入节点 u
+            parentTree[u] = v;
+            dsu[u] = u;
+            ancestor[u] = u;
+
+            // 退出事件最后执行
+            st.push({2, u, 0});
+
+            // 倒序压栈，让遍历顺序接近递归 DFS
+            for (int i = (int)g[u].size() - 1; i >= 0; i--)
+            {
+                int to = g[u][i].to;
+                int w = g[u][i].w;
+
+                if (to == v) continue;
+
+                distRoot[to] = distRoot[u] + w;
+
+                // 先压合并，再压进入
+                // 因为栈后进先出，所以会先处理子树，再合并
+                st.push({1, u, to});
+                st.push({0, to, u});
+            }
+        }
+        else if (type == 1)
+        {
+            // 子树 v 已经处理完，合并 u 和 v
+            int fu = findset(u);
+            int fv = findset(v);
+
+            dsu[fv] = fu;
+            ancestor[fu] = u;
+        }
+        else
+        {
+            // 退出节点 u，标记为访问完成
+            vis[u] = true;
+
+            for (auto item : q[u])
+            {
+                int other = item.to;
+                int id = item.id;
+
+                if (vis[other])
+                {
+                    ansLca[id] = ancestor[findset(other)];
+                }
+            }
+        }
+    }
+}
+
+long long get_dist_by_lca(int u, int v, int lca)
+{
+    return distRoot[u] + distRoot[v] - 2LL * distRoot[lca];
+}
+int main()
+{
+    ios::sync_with_stdio(false);
+    cin.tie(nullptr);
+
+    cin >> n >> m;
+
+    for (int i = 1; i < n; i++)
+    {
+        int u, v, w;
+        cin >> u >> v >> w;
+
+        g[u].push_back({v, w});
+        g[v].push_back({u, w});
+    }
+
+    vector<pair<int, int>> ask(m + 1);
+
+    for (int i = 1; i <= m; i++)
+    {
+        int u, v;
+        cin >> u >> v;
+
+        ask[i] = {u, v};
+
+        q[u].push_back({v, i});
+        q[v].push_back({u, i});
+    }
+
+    tarjan_lca_iterative(1);
+
+    for (int i = 1; i <= m; i++)
+    {
+        int u = ask[i].first;
+        int v = ask[i].second;
+        int g = ansLca[i];
+
+        cout << "LCA = " << g << '\n';
+
+        // 如果要求路径距离：
+        // cout << get_dist_by_lca(u, v, g) << '\n';
+    }
+
+    return 0;
+}
+```
