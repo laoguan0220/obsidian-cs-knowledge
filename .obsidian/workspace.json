@@ -8,49 +8,35 @@
         "type": "tabs",
         "children": [
           {
-            "id": "5ff6dae799b47b06",
+            "id": "f2dbc09ed05a389c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "算法题目集/巡逻.md",
+                "file": "树上差分.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "巡逻"
+              "title": "树上差分"
             }
           },
           {
-            "id": "abcf2f3cb2e4dade",
+            "id": "9a0433b309e19d05",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "轮廓线dp.md",
+                "file": "树上边差分.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "轮廓线dp"
-            }
-          },
-          {
-            "id": "19be2202ebf991b6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "关于下推自动机.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "关于下推自动机"
+              "title": "树上边差分"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -236,10 +222,20 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "19be2202ebf991b6",
+  "active": "9a0433b309e19d05",
   "lastOpenFiles": [
-    "轮廓线dp.md",
+    "bookmanager/Pasted image 20260521145557.png",
+    "树上差分.md",
+    "树上点差分.md",
+    "bookmanager/Pasted image 20260521145200.png",
+    "bookmanager/Pasted image 20260521144231.png",
+    "树上边差分.md",
+    "bookmanager/Pasted image 20260521125827.png",
+    "bookmanager/Pasted image 20260521125709.png",
+    "bookmanager/Pasted image 20260521124222.png",
+    "bookmanager/Pasted image 20260521123928.png",
     "关于下推自动机.md",
+    "轮廓线dp.md",
     "CMU炸弹实验体会.md",
     "算法题目集/巡逻.md",
     "算法题目集/消防.md",
@@ -249,13 +245,7 @@
     "算法与数据结构（刷题为主）/树的直径.md",
     "bookmanager/Pasted image 20260520130640.png",
     "something useful/obsidan中配置Copilot.md",
-    "bookmanager/Pasted image 20260519224220.png",
-    "bookmanager/Pasted image 20260519202209.png",
-    "bookmanager/Pasted image 20260519200146.png",
     "待解决的题目.md",
-    "bookmanager/Pasted image 20260519150916.png",
-    "bookmanager/Pasted image 20260519143830.png",
-    "bookmanager/Pasted image 20260519143643.png",
     "算法与数据结构（刷题为主）/树的重心.md",
     "算法与数据结构（刷题为主）/倍增思想.md",
     "算法题目集/在传球游戏中最大化函数值.md",
@@ -272,11 +262,7 @@
     "形式语言与自动机复习/第一章---绪论.pdf",
     "形式语言与自动机复习/形式语言与自动机题目复习.md",
     "算法与数据结构（刷题为主）/数据结构/线段树.md",
-    "算法与数据结构（刷题为主）/可持久化线段树.md",
-    "算法与数据结构（刷题为主）/带权并查集.md",
     "形式语言与自动机复习/2021秋__19级形式语言考经(1).pdf",
-    "操作系统/CMUdatalab实验学习.md",
-    "copilot/copilot-conversations/Markdown转换请求@20260516_211632.md",
     "数学学习/数论",
     "数学学习/微积分/未命名",
     "数学学习/微积分",
