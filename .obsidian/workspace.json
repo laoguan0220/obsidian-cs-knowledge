@@ -11,10 +11,14 @@
             "id": "b3c1110c5c7419f4",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "未命名.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "未命名"
             }
           }
         ]
@@ -202,8 +206,9 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "7c3e9c69aca45163",
+  "active": "b3c1110c5c7419f4",
   "lastOpenFiles": [
+    "未命名.md",
     "算法与数据结构（刷题为主）/数据结构/树上倍增和求lca问题.md",
     "算法题目集/紧急集合.md",
     "树上差分.md",
