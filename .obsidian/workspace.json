@@ -64,7 +64,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -249,11 +249,11 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "3a0f90c818436957",
+  "active": "5e976f16a251f886",
   "lastOpenFiles": [
     "CF219D.md",
-    "bookmanager/Pasted image 20260525215435.png",
     "换根dp.md",
+    "bookmanager/Pasted image 20260525215435.png",
     "对诸多一类问题的总结.md",
     "算法与数据结构（刷题为主）/算法的方法汇总.md",
     "算法题目集/夏季特惠题目.md",
