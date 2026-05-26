@@ -107,7 +107,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 218.5069465637207
+    "width": 218.5069465637207,
+    "collapsed": true
   },
   "right": {
     "id": "b8f786d009ce6b5e",
@@ -237,9 +238,9 @@
   },
   "active": "755162a8aa21b3fc",
   "lastOpenFiles": [
-    "CF708C.md",
-    "P6419.md",
     "换根dp.md",
+    "P6419.md",
+    "CF708C.md",
     "算法方法层.md",
     "CF219D.md",
     "bookmanager/Pasted image 20260525215435.png",
