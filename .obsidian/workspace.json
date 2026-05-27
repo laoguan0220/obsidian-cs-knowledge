@@ -50,7 +50,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -236,10 +236,11 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "755162a8aa21b3fc",
+  "active": "3a0f90c818436957",
   "lastOpenFiles": [
-    "换根dp.md",
+    "bookmanager/Pasted image 20260527124952.png",
     "P6419.md",
+    "换根dp.md",
     "CF708C.md",
     "算法方法层.md",
     "CF219D.md",
@@ -264,7 +265,6 @@
     "算法与数据结构（刷题为主）/权值线段树.md",
     "算法与数据结构（刷题为主）/双指针.md",
     "算法题目集/来自知识的礼物.md",
-    "算法题目集/推导部分和.md",
     "bookmanager/Pasted image 20260523205316.png",
     "ai学习",
     "bookmanager/Pasted image 20260521145557.png",
