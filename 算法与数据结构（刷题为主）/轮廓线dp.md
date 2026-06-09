@@ -398,5 +398,459 @@ int main() {
 
 最后给一个很实用的记忆方式。遇到网格 DP 时，先问自己三个问题。第一，扫描顺序固定以后，未来到底会依赖过去的哪些信息？第二，这些信息是不是只落在“已处理区和未处理区的边界”上？第三，这个边界上的每个位置，记录 1 bit、2 bit，还是需要记录更复杂的连通性编号？如果你能把这三个问题答清楚，轮廓线 DP 的状态通常就已经设计出来了。P1879 的答案是“记录是否种植”；P2435 的答案是“记录颜色”；这正是它们最适合作为一组对照题来学习的原因。 citeturn1view0turn1view1turn4view2turn4view3
 
+![[Pasted image 20260609214239.png]]
+```cpp
+#include <bits/stdc++.h>
 
+using namespace std;
 
+#define endl "\n"
+
+typedef long long ll;
+
+const int N = 1e5 + 5;
+
+const int M=1e8;
+
+////////////
+
+int m,n,tot;
+
+int a[13];
+
+int f[21][1<<12+5];
+
+int st[1<<12+5];
+
+//////
+
+void build()
+
+{
+
+    for(int i=0;i<(1<<m);i++)
+
+    {
+
+        if(i&(i<<1))
+
+        continue;
+
+        st[++tot]=i; ///记录下来一行当中所有满足条件的状态
+
+    }
+
+}
+
+//
+
+/*
+
+2 3
+
+1 1 1
+
+0 1 0
+
+*/
+
+//部分状态确定法 选择特征鲜明的状态对整体分类
+
+int main()
+
+{
+
+    ios::sync_with_stdio(false);
+
+    cin.tie(nullptr);
+
+    cout.tie(nullptr);
+
+    cin>>n>>m;
+
+    for(int i=1;i<=n;i++)
+
+    {
+
+        for(int j=1;j<=m;j++)
+
+        {
+
+            int x;
+
+            cin>>x;
+
+            a[i]+=(x<<(m-j));
+
+        }
+
+    }
+
+    build();
+
+    for(int i=1;i<=tot;i++)
+
+    {
+
+        if(!((st[i]|a[1])==a[1]))
+
+        continue;
+
+        f[1][st[i]]=1;
+
+    }
+
+    for(int i=2;i<=n;i++)
+
+    {
+
+        for(int j=1;j<=tot;j++)
+
+        {
+
+            int cur=st[j];
+
+            if(!((cur|a[i])==a[i]))
+
+            continue;
+
+            for(int k=1;k<=tot;k++)
+
+            {
+
+                int last=st[k];
+
+                if(!((last|a[i-1])==a[i-1]))
+
+                continue;
+
+                if(cur&last)
+
+                continue;
+
+                f[i][cur]=(f[i][cur]+f[i-1][last])%M;
+
+            }
+
+        }
+
+    }
+
+    int ans=0;
+
+    for(int i=1;i<=tot;i++)
+
+    {
+
+        int cur=st[i];
+
+        ans=(ans+f[n][cur])%M;
+
+    }
+
+    cout<<ans<<endl;
+
+}
+版本2
+#include <bits/stdc++.h>
+
+using namespace std;
+
+#define endl "\n"
+
+typedef long long ll;
+
+inline ll Read()
+
+{
+
+    ll x = 0, f = 1;
+
+    char c = getchar();
+
+    while (c != '-' && (c < '0' || c > '9')) c = getchar();
+
+    if (c == '-') f = -f, c = getchar();
+
+    while (c >= '0' && c <= '9') x = (x << 3) + (x << 1) + c - '0', c = getchar();
+
+    return x * f;
+
+}
+
+const int N = 1e5 + 5;
+
+const int M=1e8;    
+
+////////////
+
+int n,m;
+
+int a[13][13];
+
+int dp[13][13][1<<12+1];
+
+//////
+
+int setnum(int s,int j,int num)
+
+{
+
+    return num==0?(s&(~(1<<j))):(s|(1<<j));
+
+}//将状态的某一位的值设置为1或者是0
+
+int getnum(int s,int j)
+
+{
+
+    return (s>>j)&1;
+
+}//得到状态的某一位数值
+
+int dfs(int i,int j,int s)
+
+{
+
+    if(i==n+1)
+
+    {
+
+        return 1;
+
+    }
+
+    if(j==m+1)
+
+    {
+
+        return dfs(i+1,1,s);
+
+    }
+
+    if(dp[i][j][s]!=-1)
+
+    {
+
+        return dp[i][j][s];
+
+    }
+
+    int ans=dfs(i,j+1,setnum(s,j-1,0));//不选
+
+//如果要选的话也必须满足相应的选择条件
+
+    if(a[i][j]==1&&(j==1||getnum(s,j-2)==0)&&getnum(s,j-1)==0)
+
+    {
+
+        ans=(ans+dfs(i,j+1,setnum(s,j-1,1)))%M;
+
+    }
+
+    dp[i][j][s]=ans;
+
+    return ans;
+
+}
+
+//s记录的是同一行(1,j-1)的状态 上一行（j,m)的状态
+
+int main()
+
+{
+
+    ios::sync_with_stdio(false);
+
+    cin.tie(nullptr);
+
+    cout.tie(nullptr);
+
+    cin>>n>>m;
+
+    for(int i=1;i<=n;i++)
+
+    {
+
+        for(int j=1;j<=m;j++)
+
+        {
+
+            cin>>a[i][j];
+
+        }
+
+    }
+
+    for(int i=1;i<=n;i++)
+
+    {
+
+        for(int j=1;j<=m;j++)
+
+        {
+
+            for(int k=0;k<(1<<m);k++)
+
+            {
+
+                dp[i][j][k]=-1;
+
+            }
+
+        }
+
+    }
+
+    cout<<dfs(1,1,0)<<endl;
+
+}
+版本3 空间压缩版本
+#include <bits/stdc++.h>
+
+using namespace std;
+
+  
+
+const int MAXN = 12;
+
+const int MAXM = 12;
+
+const int MOD = 100000000;
+
+  
+
+int n, m, maxs;
+
+int grid[MAXN][MAXM];
+
+int dp[MAXM + 1][1 << MAXM];
+
+int prepare[1 << MAXM];
+
+  
+
+int get(int s, int j) {
+
+    return (s >> j) & 1;
+
+}
+
+  
+
+int setBit(int s, int j, int v) {
+
+    return v == 0 ? (s & (~(1 << j))) : (s | (1 << j));
+
+}
+
+  
+
+int compute() {
+
+    for (int s = 0; s < maxs; s++) {
+
+        prepare[s] = 1;
+
+    }
+
+  
+
+    for (int i = n - 1; i >= 0; i--) {
+
+        // j == m
+
+        for (int s = 0; s < maxs; s++) {
+
+            dp[m][s] = prepare[s];
+
+        }
+
+  
+
+        // 普通位置
+
+        for (int j = m - 1; j >= 0; j--) {
+
+            for (int s = 0; s < maxs; s++) {
+
+                // 不种草
+
+                int ans = dp[j + 1][setBit(s, j, 0)];
+
+  
+
+                // 种草
+
+                if (grid[i][j] == 1 &&
+
+                    (j == 0 || get(s, j - 1) == 0) &&
+
+                    get(s, j) == 0) {
+
+                    ans = (ans + dp[j + 1][setBit(s, j, 1)]) % MOD;
+
+                }
+
+  
+
+                dp[j][s] = ans;
+
+            }
+
+        }
+
+  
+
+        // 设置 prepare
+
+        for (int s = 0; s < maxs; s++) {
+
+            prepare[s] = dp[0][s];
+
+        }
+
+    }
+
+  
+
+    return dp[0][0];
+
+}
+
+  
+
+int main() {
+
+    ios::sync_with_stdio(false);
+
+    cin.tie(nullptr);
+
+  
+
+    cin >> n >> m;
+
+    maxs = 1 << m;
+
+  
+
+    for (int i = 0; i < n; i++) {
+
+        for (int j = 0; j < m; j++) {
+
+            cin >> grid[i][j];
+
+        }
+
+    }
+
+  
+
+    cout << compute() << '\n';
+
+  
+
+    return 0;
+
+}
+```
