@@ -22,31 +22,17 @@
             }
           },
           {
-            "id": "3a0f90c818436957",
+            "id": "791bdafe746c9933",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "换根dp.md",
+                "file": "算法方法层.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "换根dp"
-            }
-          },
-          {
-            "id": "755162a8aa21b3fc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "P6419.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "P6419"
+              "title": "算法方法层"
             }
           }
         ],
@@ -107,8 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 218.5069465637207,
-    "collapsed": true
+    "width": 218.5069465637207
   },
   "right": {
     "id": "b8f786d009ce6b5e",
@@ -236,13 +221,16 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "3a0f90c818436957",
+  "active": "791bdafe746c9933",
   "lastOpenFiles": [
-    "bookmanager/Pasted image 20260527124952.png",
+    "Morris遍历.md",
+    "bookmanager/Pasted image 20260527135135.png",
+    "算法方法层.md",
     "P6419.md",
     "换根dp.md",
+    "bookmanager/Pasted image 20260527133500.png",
+    "bookmanager/Pasted image 20260527124952.png",
     "CF708C.md",
-    "算法方法层.md",
     "CF219D.md",
     "bookmanager/Pasted image 20260525215435.png",
     "算法与数据结构（刷题为主）/算法的方法汇总.md",
@@ -264,7 +252,6 @@
     "算法与数据结构（刷题为主）/第k小的数.md",
     "算法与数据结构（刷题为主）/权值线段树.md",
     "算法与数据结构（刷题为主）/双指针.md",
-    "算法题目集/来自知识的礼物.md",
     "bookmanager/Pasted image 20260523205316.png",
     "ai学习",
     "bookmanager/Pasted image 20260521145557.png",
@@ -272,9 +259,6 @@
     "bookmanager/Pasted image 20260521144231.png",
     "bookmanager/Pasted image 20260521125827.png",
     "bookmanager/Pasted image 20260521125709.png",
-    "bookmanager/Pasted image 20260521124222.png",
-    "bookmanager/Pasted image 20260521123928.png",
-    "bookmanager/Pasted image 20260520170934.png",
     "树",
     "形式语言与自动机复习/第一章---绪论.pdf",
     "形式语言与自动机复习/2021秋__19级形式语言考经(1).pdf",
