@@ -20,8 +20,23 @@
               "icon": "lucide-file",
               "title": "摘樱桃"
             }
+          },
+          {
+            "id": "de9189809b468d58",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "未命名.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "未命名"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -78,8 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 218.5069465637207,
-    "collapsed": true
+    "width": 218.5069465637207
   },
   "right": {
     "id": "b8f786d009ce6b5e",
@@ -207,10 +221,11 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "f004dc84d9adb5bf",
+  "active": "de9189809b468d58",
   "lastOpenFiles": [
-    "bookmanager/Pasted image 20260617210523.png",
     "摘樱桃.md",
+    "未命名.md",
+    "bookmanager/Pasted image 20260617210523.png",
     "算法方法层.md",
     "关于下推自动机.md",
     "贴瓷砖的方法数.md",
@@ -253,7 +268,6 @@
     "bookmanager/Pasted image 20260525215435.png",
     "bookmanager/Pasted image 20260523205316.png",
     "bookmanager/Pasted image 20260521145557.png",
-    "bookmanager/Pasted image 20260521145200.png",
-    "bookmanager/Pasted image 20260521144231.png"
+    "bookmanager/Pasted image 20260521145200.png"
   ]
 }
