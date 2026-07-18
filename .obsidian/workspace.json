@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "未命名.md",
+                "file": "关于下推自动机.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "未命名"
+              "title": "关于下推自动机"
             }
           }
         ],
@@ -223,8 +223,16 @@
   },
   "active": "de9189809b468d58",
   "lastOpenFiles": [
-    "摘樱桃.md",
+    "ai学习/~$chpt3 逻辑推理.pptx",
+    "ai学习/~$chpt2搜索技术.pptx",
+    "待解决的题目.md",
     "未命名.md",
+    "摘樱桃.md",
+    "算法与数据结构（刷题为主）/动态规划/背包dp.md",
+    "算法与数据结构（刷题为主）/动态规划/线性dp.md",
+    "bookmanager/Pasted image 20260331223525.png",
+    "bookmanager/f2ef4abb2adcbe225888d1fa96245f85.jpg",
+    "bookmanager/b2360053df7ff600f62615857f5b4107.jpg",
     "bookmanager/Pasted image 20260617210523.png",
     "算法方法层.md",
     "关于下推自动机.md",
@@ -241,7 +249,6 @@
     "copilot/copilot-custom-prompts/Summarize.md",
     "copilot/copilot-custom-prompts/Translate to Chinese.md",
     "copilot/memory/Recent Conversations.md",
-    "待解决的题目.md",
     "操作系统/信号量机制和消息队列机制.md",
     "操作系统/qemu加载内核.md",
     "操作系统/xv6_RISC-V 2.md",
@@ -255,19 +262,12 @@
     "chpt7 DeepLearning-预训练语言模型.ppt",
     "chpt6 DeepLearning-RNN.ppt",
     "chpt5 DeepLearning-CNN.pptx",
-    "chpt4 机器学习.pptx",
     "bookmanager/Pasted image 20260609220354.png",
     "算法题目集/P6419.md",
-    "something useful/毛中特大纲.md",
-    "CMU炸弹实验体会.md",
-    "算法与数据结构（刷题为主）/树上边差分.md",
     "bookmanager/Pasted image 20260609214239.png",
     "bookmanager/Pasted image 20260527135135.png",
     "bookmanager/Pasted image 20260527133500.png",
     "bookmanager/Pasted image 20260527124952.png",
-    "bookmanager/Pasted image 20260525215435.png",
-    "bookmanager/Pasted image 20260523205316.png",
-    "bookmanager/Pasted image 20260521145557.png",
-    "bookmanager/Pasted image 20260521145200.png"
+    "bookmanager/Pasted image 20260525215435.png"
   ]
 }
